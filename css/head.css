@@ -131,23 +131,23 @@ hover   #f86400;
 .panel .infos .p_anchor_w{display: inline-block;float: left;}
 .panel .infos .p_anchor{width: 70px;height: 70px;float: left;margin-left: -80px;}
 .panel .infos .pb_phone{height: 24px;line-height: 24px;display: inline-block;position: relative;z-index: 0; padding: 0 30px 0 10px;margin-left: 10px;  background-color: #ffffe5;border: 1px solid #ecdda0;font-size: 12px;}
-.panel .infos .pb_phone a{color: #06a7e1;}
+.panel .infos .pb_phone a{color: #f86400;}
 .panel .infos .pb_phone i{font-size: 12px;float: right;color: #909090;  width: 18px;height: 18px;cursor: pointer;line-height: 18px;display: inline-block;text-align: center;position: absolute;right: 3px;top: 3px;}
 .panel .last{height: 30px;line-height: 30px;text-align: center;}
-.panel .infos .go_exp{float: right;color: #06a7e1;font-size: 14px;}
+.panel .infos .go_exp{float: right;color: #f86400;font-size: 14px;}
 .panel .infos p{margin-bottom: 5px;height: 22px;}
 .panel .infos .first{margin-top: -2px;}
 .panel .infos .third{margin-bottom: 0;color: #909090;}
 .panel .infos .second>.icf{height: 22px;display: inline-block;float: left;  line-height: 24px;margin-right: 3px;}
 .panel .last{height: 30px;line-height: 30px;text-align: center;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;}
 .panel .last em{  width: 33%;display: inline-block;}
-.panel .p_name{color: #3399e0;font-size: 18px;}
+.panel .p_name{color: #f86400;font-size: 18px;}
 .panel .p_bel{float: right;font-size: 12px;}
 
 .panel .tabs{height: 40px;padding: 20px;border-bottom: 1px solid #ccc;}
 .panel .tabs a{  display: block;text-align: center;width: 25%;float: left;color: #555;*margin-right: -3px;  white-space: nowrap;  line-height: 28px;}
 .panel .tabs a i{display: block;font-size: 35px;  font-size: 28px;}
-.panel .tabs a:hover{color: #c31;}
+.panel .tabs a:hover{color: #f86400;}
 .panel .tabs a:hover i{color: #555;}
 
 
@@ -158,7 +158,7 @@ hover   #f86400;
 .panel .p_mathlist{padding: 0px 20px 0; height: 120px;overflow-y: auto;}
 .panel .p_mathlist li{margin-top: 5px;}
 .panel .p_mathlist li a{color: #555;display: block;}
-.panel .p_mathlist .room{color: #3399e0;}
+.panel .p_mathlist .room{color: #f86400;}
 .panel .p_mathlist .time{float: right;}
 
 .active .login_bef{display: none;}
@@ -167,7 +167,7 @@ hover   #f86400;
 .panel .cons{display: none;}
 .panel .loading {position: absolute;top: 0;left: 0;width: 100%;height: 100%
 }
-.panel .loading .ico {width: 64px;height: 64px;background: url(/img/loading_64.gif) no-repeat;display: block;position: absolute;top: 50%;left: 50%;margin-top: -32px;margin-left: -32px;z-index: 1
+.panel .loading .ico {width: 64px;height: 64px;background: url(/img/loading_64.gif) center top no-repeat;display: block;position: absolute;top: 50%;left: 50%;margin-top: -32px;margin-left: -32px;z-index: 1
 }
 .loaded .cons{display: block;  }
 .loaded .loading{display: none;}
