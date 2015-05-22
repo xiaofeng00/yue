@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>demo</title>
+	<link rel="stylesheet" href="/css/index.css">
+	<script type="text/javascript" src="http://libs.useso.com/js/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+	<!--#<!--#include file="/include/head.html"-->
+	<div class="fixchat" id="fixChat">
+		<a href="javascript:void(0);" class="btns bactop icf" id="bacTop">&#xe604;</a>
+		<div id="chatBtn" class=""><a class="btns icf chatbtn" href="javascript:void(0);">&#xe607;</a>
+			<div class="chatvideo" id="chatVideo">
+				<i class="ico"></i>
+				<a href="javascript:void(0);" id="chatVClose" class="close icf">&#xe603;</a>
+				<embed align="middle" allowfullscreen="true" allowscriptaccess="always" bgcolor="#000000" flashvars="http://www.yuezhanba.com/flash/chat/PrivateChatSeminar.swf" height="400" id="tenvideo_flash_player_1421385304801" name="tenvideo_flash_player_1421385304801" pluginspage="http://get.adobe.com/cn/flashplayer/" quality="high" src="/flash/chat/PrivateChatSeminar.swf" type="application/x-shockwave-flash" width="250" wmode="opaque">
+			</div>
+		</div>
+	</div>
+
+
+	fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>fdsjfl<br>
+	<script type="text/javascript" src="/js/head.js"></script>
+</body>
+</html>
