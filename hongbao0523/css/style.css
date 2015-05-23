@@ -8,7 +8,6 @@ p{margin: 0;}
 * html .clearfix             { zoom: 1; }
 *:first-child+html .clearfix { zoom: 1; }
 
-
 .cont{background: #000;position: relative;}
 .wrap{width: 1100px;margin: 0 auto;position: relative;z-index: 1;}
 .bg_1,.bg_2{position: absolute;left: 0px;top: 0px;}
@@ -59,7 +58,14 @@ p{margin: 0;}
 .mask1 .alert1{display: block;}
 .mask2 .alert2{display: block;}
 
-
+.top4 div{width: 500px;float: left;margin-top: 230px;margin-left: 25px;font-size: 14px;height: 100px;overflow: hidden;}
+.top4 div ul{padding-left: 50px;}
+.top4 div li{padding-left: 50px;line-height: 24px;height: 24px;}
+.top4 div li a{color: #ec543e;text-decoration: none;}
+.top4 .list1{}
+.top4 #List2{padding-left: 25px;}
+.top4 .name{color: #f9de25}
+.top4 .num{color: #fff266;}
 
 
 

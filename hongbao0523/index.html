@@ -16,7 +16,26 @@
 			<div class="top1"></div>
 			<div class="top2"><a href="javascript:showAlt(1);" class="a1" title="领取红包" >领取红包</a></div>
 			<div class="top3"></div>
-			<div class="top4"></div>
+			<div class="top4">
+				<div  id="List1">
+					<ul class="list1">
+						<li><a href=""><em class="name">XXXXX</em>获得了<em class="num">123456</em>个竞技豆</a></li>
+						<li><a href=""><em class="name">XXXXX</em>获得了<em class="num">123456</em>个竞技豆</a></li>
+						<li><a href=""><em class="name">XXXXX</em>获得了<em class="num">123456</em>个竞技豆</a></li>
+						<li><a href=""><em class="name">XXXXX</em>获得了<em class="num">123456</em>个竞技豆</a></li>
+						<li><a href=""><em class="name">XXXXX</em>获得了<em class="num">123456</em>个竞技豆</a></li>
+					</ul>
+				</div>
+				<div  id="List2">
+					<ul class="list2">
+						<li><a href=""><em class="name">XXXXX</em>获得了<em class="num">123456</em>个竞技豆</a></li>
+						<li><a href=""><em class="name">XXXXX</em>获得了<em class="num">123456</em>个竞技豆</a></li>
+						<li><a href=""><em class="name">XXXXX</em>获得了<em class="num">123456</em>个竞技豆</a></li>
+						<li><a href=""><em class="name">XXXXX</em>获得了<em class="num">123456</em>个竞技豆</a></li>
+						<li><a href=""><em class="name">XXXXX</em>获得了<em class="num">123456</em>个竞技豆</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 		<div class="mask" id="Mask">
 			<div class="alpha"></div>
@@ -53,6 +72,13 @@
 	</div>
 	<script type="text/javascript">
 		var AltsShowed = false;
+		function AutoScroll(obj) {
+		    $(obj).find("ul:first").animate({
+		        marginTop: "-24px"
+		    }, 500, function() {
+		        $(this).css({ marginTop: "0px" }).find("li:first").appendTo(this);
+		    });
+		}
 		$(document).ready(function() {
 			$(".alts").on('focus', 'input', function(event) {
 				var $this = $(this);
@@ -66,6 +92,11 @@
 					$this.val($this.data('val'));
 				}
 			});
+
+			var myal = setInterval('AutoScroll("#List1")', 2000);
+		    $("#List1").hover(function() { clearInterval(myal); }, function() { myal = setInterval('AutoScroll("#List1")', 2000) }); //当鼠标放上去的时候，滚动停止，鼠标离开的时候滚动开始
+		    var myar = setInterval('AutoScroll("#List2")', 2000);
+		    $("#List2").hover(function() { clearInterval(myar); }, function() { myar = setInterval('AutoScroll("#List2")', 2000) }); //当鼠标放上去的时候，滚动停止，鼠标离开的时候滚动开始
 
 		});
 		function showAlt(type){
