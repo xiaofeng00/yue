@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>抢红包活动</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="http://libs.useso.com/js/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<div class="cont">
+		<span class="bg_1"></span><span class="bg_2"></span>
+		<div class="wrap">
+			<div class="top1"></div>
+			<div class="top2"><a href="javascript:showAlt(1);" class="a1" title="领取红包" >领取红包</a></div>
+			<div class="top3"></div>
+			<div class="top4"></div>
+		</div>
+		<div class="mask" id="Mask">
+			<div class="alpha"></div>
+			<div class="alts alert2" id="Alert2">
+				<em class="note" id="Note2">恭喜您！ 抢到1000竞技豆红包！</em>
+				<div class="form">
+					<input data-val="请输入推荐码" value="请输入推荐码"  type="text">
+					<button title="提交" id="Submit2">提交</button>
+				</div>
+				<div class="share"><span>分享到：</span>
+				<a class="share_0" href="javascript:void(0);">人人</a>
+				<a class="share_1" href="javascript:void(0);">人人</a>
+				<a class="share_2" href="javascript:void(0);">人人</a>
+				<a class="share_3" href="javascript:void(0);">人人</a></div>
+			</div>
+			<div class="alts alert1" id="Alert1">
+				<em class="note" id="Note1">截至目前已经有64875人，抢走了123456竞技豆红包！</em>
+				<div class="form">
+					<p class="clearfix"><input type="text" data-val="输入手机号" value="输入手机号" class="phoneN" id="PhoneN">
+					<button class="send" id="Send" title="发送验证码" >发送验证码</button>
+					</p>
+					<p class="clearfix p2"><input type="text" data-val="输入验证码" value="输入验证码" class="mark" id="Mark">
+					<button id="Submit1" title="马上抢红包" >马上抢红包</button>
+					</p>
+				</div>
+				<div class="share"><span>分享到：</span>
+				<a class="share_0" href="javascript:void(0);">人人</a>
+				<a class="share_1" href="javascript:void(0);">人人</a>
+				<a class="share_2" href="javascript:void(0);">人人</a>
+				<a class="share_3" href="javascript:void(0);">人人</a></div>
+			</div>
+		</div>
+		
+	</div>
+	<script type="text/javascript">
+		var AltsShowed = false;
+		$(document).ready(function() {
+			$(".alts").on('focus', 'input', function(event) {
+				var $this = $(this);
+				if ($this.val()==$this.data('val')) {
+					$this.val("");
+				}
+			});
+			$(".alts").on('blur', 'input', function(event) {
+				var $this = $(this);
+				if ($this.val()=="") {
+					$this.val($this.data('val'));
+				}
+			});
+
+		});
+		function showAlt(type){
+			var $Mask = document.getElementById('Mask');
+			$Mask.className = "mask mask"+type;
+			AltsShowed = true;
+		}
+		
+	</script>
+</body>
+</html>
