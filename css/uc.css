@@ -1,0 +1,70 @@
+/* html,body{height: 100%;} */
+.btn{*border: 1px solid #ccc;}
+
+.Uc_w{height: 100%; color: #535353;background: #e7e7e7;font-size: 14px;line-height: 20px;}
+
+.Uc_w .nwrap{background: #fff;width: 1200px;margin: 0 auto;}
+.Uc_w .Uc{margin-top: 15px;padding-bottom: 50px;}
+.uc_nav{width: 170px;margin-left: 30px;}
+.uc_cont{width: 870px;margin-left: 30px;}
+
+.uc_nav{border:1px solid #ccc;  margin-top: 15px;margin-bottom: 30px;border-radius: 6px;  overflow: hidden;}
+.uc_nav li{line-height: 50px;font-size: 16px;}
+.uc_nav .last a{border-bottom: 0;}
+.uc_nav li a{display: block;height: 50px;border-bottom: 1px solid #ccc;border-top: 1px solid #ccc;color: #535353; margin-top: -1px; padding-top: 0;padding-bottom: 0;}
+.uc_nav li a:hover,.uc_nav .hover a{border-left: #ff7e00 2px solid;color:#ff7e00;background: #fff; }
+.uc_nav .title{font-weight: bold;}
+.uc_nav a i{font-size: 23px;display: inline-block;margin-right: 5px;}
+
+.uc_cont{margin-top: 10px;}
+.uc_cont h3{border-bottom: 1px solid #ccc;text-indent: 20px;margin-top: 15px;}
+.uc_cont h3 .note{font-size: 12px;color: #f00;font-weight: normal;margin-left: 15px;  font-weight: bold;}
+
+.uc_cont .anchor{display: block;margin-bottom: 15px;padding: 2px;border: 1px solid #ebebeb;width: 40px;height: 40px;}
+.uc_cont form{margin-top: 20px;}
+
+.ctr_text{height: 30px;line-height: 30px;}
+.ctr_text .belong{margin-left: 20px;}
+.ctr_text em{color: #ff7e00;}
+.control-address select{width: 108px;}
+
+
+.uc_cont table{margin-top: 20px;}
+.uc_cont .down{color: #ff0000;}
+.uc_cont .up{color: #87ca01;}
+.table_handle {margin-top: 20px;}
+.table_handle button{margin-right: 15px;}
+
+.table_top {font-weight: bold;font-size: 16px; height: 45px;line-height: 45px;border-bottom: 1px solid #ccc;text-indent: 20px;margin-top: 5px;}
+.table_top .leb{padding-left: 40px;}
+.table_top .first{padding-left: 0px;}
+.table_top .note{font-size: 12px;}
+.table_top .type1{color: #87ca01;}
+.table_top .type2{color: #ccc;}
+.table_top .money{color: #ee3844;}
+.table_top .num,.table_top a{color: #ff7e00;}
+.table_top a{font-size: 16px;display: inline-block;padding: 0 5px;}
+.table_top a:hover{color: #f86400;text-decoration: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

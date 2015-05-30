@@ -67,8 +67,8 @@ p{margin: 0;}
 .top4 .name{color: #f9de25}
 .top4 .num{color: #fff266;}
 
-
-
+.top3 ul{padding: 0 80px;}
+.top3 ul li{width: 29%;display: inline-block;float: left;color: #ffb23a;font-size: 16px;padding:20px 20px; line-height: 25px;text-indent: 2em; }
 
 
 

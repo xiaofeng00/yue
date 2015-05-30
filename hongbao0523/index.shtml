@@ -9,13 +9,20 @@
 	<script type="text/javascript" src="http://libs.useso.com/js/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body>
-
+	<!--#<!--#include file="/include/head.html"-->
 	<div class="cont">
 		<span class="bg_1"></span><span class="bg_2"></span>
 		<div class="wrap">
 			<div class="top1"></div>
 			<div class="top2"><a href="javascript:showAlt(1);" class="a1" title="领取红包" >领取红包</a></div>
-			<div class="top3"></div>
+			<div class="top3">
+				<ul class="clearfix">
+					<li>1、注册会员并通过手机认证，每天即有两次领取机会，系统随机发放红包额度。</li>
+					<li>2、分享转发活动页面，邀请好友来注册，在好友领取红包的同时，您可以获得10个竞技豆红包！
+					推荐人数无限制，邀请的好友越多，红包越多！</li>
+					<li>3、红包额度累计满100个竞技豆即可转入个人账户使用。</li>
+				</ul>
+			</div>
 			<div class="top4">
 				<div  id="List1">
 					<ul class="list1">

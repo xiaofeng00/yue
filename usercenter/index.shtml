@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人中心-基本资料</title>
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css//bootstrap-responsive.min.css">
+	<link rel="stylesheet" href="/css/uc.css">
+	<script type="text/javascript" src="http://libs.useso.com/js/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="Uc_w">
+	<!--#<!--#include file="/include/head.html"-->
+	
+		<div class="nwrap clearfix Uc">
+			<ul class="uc_nav nav nav-list span2">
+				<li class="title"><a href="/" target="_blank"><i class="icf">&#xe60b;</i>首页</a> </li>
+				<li class="title">个人信息</li> 
+				<li class="hover"><a href="#"><i class="icf">&#xe60c;</i>资料管理</a></li>
+				<li><a href="#"><i class="icf">&#xe60f;</i>消息通知</a></li>
+				<li><a href="#"><i class="icf">&#xe60e;</i>财务信息</a></li>
+				<li><a href="#"><i class="icf">&#xe60a;</i>红包信息</a></li> 
+				<li class="title">业务信息</li> 
+				<li><a href="#"><i class="icf">&#xe610;</i>兑换记录</a></li>
+				<li class="title">战队信息</li> 
+				<li><a href="#"><i class="icf">&#xe60d;</i>战队资料</a></li>
+				<li><a href="#"><i class="icf">&#xe609;</i>战队账户</a></li>
+				<li><a href="#"><i class="icf">&#xe608;</i>赛事列表</a></li>
+				<li class="last"><a href="#"><i class="icf">&#xe611;</i>队员管理</a></li>
+			</ul>
+
+			<div class="uc_cont span9">
+
+				<h3>基本资料</h3>
+				<form action="" class="form-horizontal uc_form1">
+					<div class="control-group">
+						<label for="" class="control-label">帐号：</label>
+						<div class="controls ctr_text">
+							<em class="name">阿联</em>
+							<span class="belong">所属战队：</span><em class="name">fjdksf </em>
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="" class="control-label">头像：</label>
+						<div class="controls">
+							<img src="http://www.yuezhanba.com/img/team1/default.jpg" alt="" class="anchor">
+							<input type="file" name="profileImage">
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="" class="control-label">手机：</label>
+						<div class="controls">
+							<input name="phone" type="text" class="form_text" id=""  value="0">
+							<button type="button" class="btn">验证</button>
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="" class="control-label">验证码：</label>
+						<div class="controls">
+							<input name="phone" type="text" class="form_text form_text_s" id=""  value="0">
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="" class="control-label"></label>
+						<div class="controls">
+							<button type="button" class="btn" id="" >提交</button>
+						</div>
+					</div>
+
+				</form>
+				<h3>详细资料 <span class="note">身份证号填写后无法修改，请谨慎填写！</span></h3>
+				<form action="" class="form-horizontal uc_form2">
+					<div class="control-group">
+						<label for="" class="control-label">真实姓名：</label>
+						<div class="controls">
+							<input name="name" type="text" class="form_text" id=""  value="">
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="" class="control-label">身份证号：</label>
+						<div class="controls">
+							<input name="name" disabled type="text" class="form_text" id=""  value="">
+						</div>
+					</div>
+					<div class="control-group control-address">
+						<label for="" class="control-label">所在省市：</label>
+						<div class="controls">
+							<select name="province" id="" class="" >
+								<option value="某某省">某某省</option>
+								<option value="某某省">某某省</option>
+								<option value="某某省">某某省</option>	
+							</select>
+							<select name="city" id="" class="" >
+								<option value="某某省">某某省</option>
+								<option value="某某省">某某省</option>
+								<option value="某某省">某某省</option>	
+							</select>
+							<select name="area" id="" class="" >
+								<option value="某某省">某某省</option>
+								<option value="某某省">某某省</option>
+								<option value="某某省">某某省</option>	
+							</select>
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="" class="control-label">身份证号：</label>
+						<div class="controls">
+							<textarea rows="5"></textarea>
+						</div>
+					</div>
+					<div class="control-group">
+						<label for="" class="control-label"></label>
+						<div class="controls">
+							<button type="button" class="btn" id="" >提交</button>
+						</div>
+					</div>
+
+				</form>
+
+			</div>
+		</div>
+
+		<div class="nwrap clearfix Uc">
+			<ul class="uc_nav nav nav-list span2">
+				<li class="title"><a href="/" target="_blank"><i class="icf">&#xe60b;</i>首页</a> </li>
+				<li class="title">个人信息</li> 
+				<li class="hover"><a href="#"><i class="icf">&#xe60c;</i>资料管理</a></li>
+				<li><a href="#"><i class="icf">&#xe60f;</i>消息通知</a></li>
+				<li><a href="#"><i class="icf">&#xe60e;</i>财务信息</a></li>
+				<li><a href="#"><i class="icf">&#xe60a;</i>红包信息</a></li> 
+				<li class="title">业务信息</li> 
+				<li><a href="#"><i class="icf">&#xe610;</i>兑换记录</a></li>
+				<li class="title">战队信息</li> 
+				<li><a href="#"><i class="icf">&#xe60d;</i>战队资料</a></li>
+				<li><a href="#"><i class="icf">&#xe609;</i>战队账户</a></li>
+				<li><a href="#"><i class="icf">&#xe608;</i>赛事列表</a></li>
+				<li class="last"><a href="#"><i class="icf">&#xe611;</i>队员管理</a></li>
+			</ul>
+
+			<div class="uc_cont span9">
+
+				<h3>消息通知</h3>
+				<table class="table table-hover">
+					<thead>
+						<th>选择</th>
+						<th>消息内容</th>
+						<th>时间</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<label class="checkbox">
+							      <input title="选择" type="checkbox">
+							    </label>
+							</td>
+							<td>主场发布比赛-#1675竞技赛 比分信息，请确认,本消息由系统发送。</td>
+							<td>2015-04-12 16:03:02</td>
+						</tr>
+						<tr>
+							<td>
+								<label class="checkbox">
+							      <input title="选择" type="checkbox">
+							    </label>
+							</td>
+							<td>主场发布比赛-#1675竞技赛 比分信息，请确认,本消息由系统发送。</td>
+							<td>2015-04-12 16:03:02</td>
+						</tr>
+					</tbody>
+				</table>
+				<p class="table_handle">
+					<button type="submit" class="btn ">全选</button>
+					<button type="submit" class="btn ">删除</button>
+				</p>
+
+				<div class="pagination pagination-centered">
+	              <ul>
+	                <li class="disabled"><a href="#">«</a></li>
+	                <li class="active"><a href="#">1</a></li>
+	                <li><a href="#">2</a></li>
+	                <li><a href="#">3</a></li>
+	                <li><a href="#">4</a></li>
+	                <li><a href="#">5</a></li>
+	                <li><a href="#">»</a></li>
+	             </ul>
+	            </div>
+
+			</div>
+		</div>
+
+
+		<div class="nwrap clearfix Uc">
+			<ul class="uc_nav nav nav-list span2">
+				<li class="title"><a href="/" target="_blank"><i class="icf">&#xe60b;</i>首页</a> </li>
+				<li class="title">个人信息</li> 
+				<li class="hover"><a href="#"><i class="icf">&#xe60c;</i>资料管理</a></li>
+				<li><a href="#"><i class="icf">&#xe60f;</i>消息通知</a></li>
+				<li><a href="#"><i class="icf">&#xe60e;</i>财务信息</a></li>
+				<li><a href="#"><i class="icf">&#xe60a;</i>红包信息</a></li> 
+				<li class="title">业务信息</li> 
+				<li><a href="#"><i class="icf">&#xe610;</i>兑换记录</a></li>
+				<li class="title">战队信息</li> 
+				<li><a href="#"><i class="icf">&#xe60d;</i>战队资料</a></li>
+				<li><a href="#"><i class="icf">&#xe609;</i>战队账户</a></li>
+				<li><a href="#"><i class="icf">&#xe608;</i>赛事列表</a></li>
+				<li class="last"><a href="#"><i class="icf">&#xe611;</i>队员管理</a></li>
+			</ul>
+
+			<div class="uc_cont span9">
+
+				<h3>财务信息</h3>
+				<p class="table_top">
+					<span class="leb first">转账码：</span> <em class="num">5585</em>
+				 	<span class="leb">帐户状态：</span> <em class="type type1">正常</em> 
+				 	<span class="leb">竞技豆：</span><em class="money">59900.0</em>
+				 	<span class="leb note"><a href="#">【在线充值】</a>注：1元 RMB 等于 10 竞技豆。</span>
+				</p>
+				<table class="table table-hover">
+					<thead>
+						<th>流水号</th>
+						<th>事件</th>
+						<th>竞技豆</th>
+						<th>时间</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								123456
+							</td>
+							<td>主场发布比赛-#1675竞技赛 比分信息，请确认,本消息由系统发送。</td>
+							<td class="up">增加 +100.0</td>
+							<td>2015-04-12 16:03:02</td>
+						</tr>
+						<tr>
+							<td>
+								123456
+							</td>
+							<td>主场发布比赛-#1675竞技赛 比分信息，请确认,本消息由系统发送。</td>
+							<td class="down">减少 -100.0</td>
+							<td>2015-04-12 16:03:02</td>
+						</tr>
+					</tbody>
+				</table>
+				<p class="table_handle">
+					<button type="submit" class="btn ">全选</button>
+					<button type="submit" class="btn ">删除</button>
+				</p>
+
+				<div class="pagination pagination-centered">
+	              <ul>
+	                <li class="disabled"><a href="#">«</a></li>
+	                <li class="active"><a href="#">1</a></li>
+	                <li><a href="#">2</a></li>
+	                <li><a href="#">3</a></li>
+	                <li><a href="#">4</a></li>
+	                <li><a href="#">5</a></li>
+	                <li><a href="#">»</a></li>
+	             </ul>
+	            </div>
+
+			</div>
+		</div>
+
+
+
+	</div>
+	<script type="text/javascript" src="/js/head.js"></script>
+</body>
+</html>
