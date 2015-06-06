@@ -101,7 +101,7 @@ hover   #f86400;
 
 .header{height: 50px;background: #000;position: relative;z-index: 90;}
 .header a:hover{text-decoration: none;}
-.wrap{width: 1200px;margin: 0 auto;}
+.wrap,.nwrap{width: 1200px;margin: 0 auto;}
 
 .h_title{width: 0px;height: 0px;overflow: hidden;}
 
@@ -191,6 +191,7 @@ bottom: 20px;
   font-weight: bold;
   border-bottom: 1px solid #ddd;display: block;text-align: center;line-height: 38px;}
 .fixchat .btns:hover{background: #e7e7e7;}
+.fixchat .active{background: #f00;}
 .chatvideo{position: absolute;
   bottom: -20px;
   right: 0px;

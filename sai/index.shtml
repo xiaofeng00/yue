@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>demo</title>
+	<link rel="stylesheet" href="/css/contest.css">
+	<script type="text/javascript" src="http://libs.useso.com/js/jquery/1.9.1/jquery.min.js"></script>
+	<style type="text/css">
+	body{  background-image: url(http://www.yuezhanba.com/images/111.jpg);background-repeat: no-repeat;background-position: center top;}
+	</style>
+</head>
+<body>
+	<!--#<!--#include file="/include/head.html"-->
+	<div class="nwrap topInfo_w">
+		<div class="topInfo">
+			<p class="name">约战吧LOL线上冠军联赛『初选赛第3回』</p>
+			<div class="jd clearfix">
+				<div class="has"><span class="title">已报名</span><em class="num">18</em></div>
+				<div class="all"><span class="title">已报名</span><em class="num">36</em></div>
+			</div>
+			<p class="lasttime">截止报名：06-12 23:30</p>
+			<p class="begintime">截止报名：06-12 23:30</p>
+			
+			<p class="act">
+				<button class="create">创建战队</button>
+				<button class="join">报名参赛</button>
+			</p>
+		</div>
+	</div>
+	<div class=" mains_w">
+		<div class="mains nwrap">
+			<div class="areCon_w">
+				<p class="top_admin"><span class="ad_1">裁判长： <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1802751900&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1802751900:52" alt="点击这里给我发消息" title="点击这里给我发消息" >总裁判</a></span><span class="ad_2">裁判员：</span></p>
+				<ul class="prvList clearfix" id="prvList">
+					<li data-prv="1"><a href="javascript:void(0);" >省1</a></li>
+					<li data-prv="2"><a href="javascript:void(0);" >省2</a></li>
+					<li data-prv="3"><a href="javascript:void(0);" >省3</a></li>
+					<li data-prv="4"><a href="javascript:void(0);" >省4</a></li>
+					<li data-prv="5"><a href="javascript:void(0);" >省5</a></li>
+				</ul>
+				<div class="areCon" id="areCon">
+					<ul class="tabcity clearfix" id="tabcity">
+						<li data-cit="0" class="first"><a href="javascript:void(0);">默认</a></li>
+						<li data-prv="1" data-cit="1"><a href="javascript:void(0);">市11</a></li>
+						<li data-prv="2" data-cit="1"><a href="javascript:void(0);">市21</a></li>
+						<li data-prv="2" data-cit="2"><a href="javascript:void(0);">市22</a></li>
+						<li data-prv="5" data-cit="1"><a href="javascript:void(0);">市51</a></li>
+						<li data-prv="3" data-cit="1"><a href="javascript:void(0);">市31</a></li>
+						<li data-prv="3" data-cit="2"><a href="javascript:void(0);">市32</a></li>
+						<li data-prv="1" data-cit="2"><a href="javascript:void(0);">市12</a></li>
+						<li data-prv="1" data-cit="3"><a href="javascript:void(0);">市13</a></li>
+						<li data-prv="2" data-cit="3"><a href="javascript:void(0);">市23</a></li>
+						<li data-prv="4" data-cit="1"><a href="javascript:void(0);">市41</a></li>
+						<li data-prv="4" data-cit="2"><a href="javascript:void(0);">市42</a></li>
+					</ul>
+					<ul class="listBa clearfix" id="listBa">
+						<li data-prv="1" data-cit="1"><a href="javascript:void(0);"><em>网吧11</em><span class="address">地址：笑嘻嘻笑嘻嘻系</span><span class="lx">qq:123456789</span></a></li>
+						<li data-prv="2" data-cit="1"><a href="javascript:void(0);"><em>网吧21</em><span class="address">地址：笑嘻嘻笑嘻嘻系</span><span class="lx">qq:123456789</span></a></li>
+						<li data-prv="3" data-cit="1"><a href="javascript:void(0);"><em>网吧31</em><span class="address">地址：笑嘻嘻笑嘻嘻系</span><span class="lx">qq:123456789</span></a></li>
+						<li data-prv="4" data-cit="1"><a href="javascript:void(0);"><em>网吧41</em><span class="address">地址：笑嘻嘻笑嘻嘻系</span><span class="lx">qq:123456789</span></a></li>
+						<li data-prv="5" data-cit="1"><a href="javascript:void(0);"><em>网吧51</em><span class="address">地址：笑嘻嘻笑嘻嘻系</span><span class="lx">qq:123456789</span></a></li>
+						<li data-prv="1" data-cit="2"><a href="javascript:void(0);"><em>网吧12</em><span class="address">地址：笑嘻嘻笑嘻嘻系</span><span class="lx">qq:123456789</span></a></li>
+						<li data-prv="2" data-cit="2"><a href="javascript:void(0);"><em>网吧22</em><span class="address">地址：笑嘻嘻笑嘻嘻系</span><span class="lx">qq:123456789</span></a></li>
+						<li data-prv="3" data-cit="2"><a href="javascript:void(0);"><em>网吧32</em><span class="address">地址：笑嘻嘻笑嘻嘻系</span><span class="lx">qq:123456789</span></a></li>
+						<li data-prv="2" data-cit="4"><a href="javascript:void(0);"><em>网吧24</em><span class="address">地址：笑嘻嘻笑嘻嘻系</span><span class="lx">qq:123456789</span></a></li>
+						<li data-prv="1" data-cit="3"><a href="javascript:void(0);"><em>网吧13</em><span class="address">地址：笑嘻嘻笑嘻嘻系</span><span class="lx">qq:123456789</span></a></li>
+						<li data-prv="5" data-cit="2"><a href="javascript:void(0);"><em>网吧52</em><span class="address">地址：笑嘻嘻笑嘻嘻系</span><span class="lx">qq:123456789</span></a></li>
+						<li data-prv="4" data-cit="2"><a href="javascript:void(0);"><em>网吧42</em><span class="address">地址：笑嘻嘻笑嘻嘻系</span><span class="lx">qq:123456789</span></a></li>
+						<li data-prv="1" data-cit="4"><a href="javascript:void(0);"><em>网吧14</em><span class="address">地址：笑嘻嘻笑嘻嘻系</span><span class="lx">qq:123456789</span></a></li>
+						<li data-prv="3" data-cit="2"><a href="javascript:void(0);"><em>网吧32</em><span class="address">地址：笑嘻嘻笑嘻嘻系</span><span class="lx">qq:123456789</span></a></li>
+						<li data-prv="1" data-cit="6"><a href="javascript:void(0);"><em>网吧16</em><span class="address">地址：笑嘻嘻笑嘻嘻系</span><span class="lx">qq:123456789</span></a></li>
+					</ul>
+
+				</div>
+			</div>
+
+
+
+			<div class="infos_w hasResult clearfix">
+				<ul class="infotab clearfix">
+					<li class="first active"><a href="javascript:void(0);">赛事规则</a></li>
+					<li><a href="javascript:void(0);">赛事结果</a></li>
+					<li><a href="javascript:void(0);">评论(<em class="num">2</em>)</a></li>
+				</ul>
+				<div class="fr">
+					<div class="share clearfix">
+						<p><input type="text" class="address"><a href="javascript:void(0);" class="copy">复制链接</a></p>
+						<p class="sharelist">
+							
+						</p>
+						<div class="marks">
+							<img src="http://www.yuezhanba.com/images/ewm.gif" alt="" >
+							<P class="markst">
+								<em>扫一扫 有惊喜！</em>
+								<span>天天有比赛 周周拿奖金微信公众号 yuezhanba</span>
+							</P>
+						</div>
+					</div>
+					<div class="pk_img">
+						<h3>现场图片</h3>
+						<a href=""><img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt="" title="比赛图片"></a>
+						<a href=""><img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt="" title="比赛图片"></a>
+					</div>
+					<div class="pk_video">
+						<h3>比赛录像</h3>
+						<ul>
+							<li class="clearfix"><a href="">
+									<img src="http://7xiwoq.com1.z0.glb.clouddn.com/hd.png" alt="">
+									<div>
+										<p>这里是标题</p>
+										<span>第二场从整体上来跟第一场比赛的节奏非常的相像，中上路依靠自己 ...</span>
+									</div>
+								</a></li>
+							<li class="clearfix"><a href="">
+									<img src="http://7xiwoq.com1.z0.glb.clouddn.com/hd.png" alt="">
+									<div>
+										<p>这里是标题</p>
+										<span>第二场从整体上来跟第一场比赛的节奏非常的相像，中上路依靠自己 ...</span>
+									</div>
+								</a></li>
+							<li class="clearfix"><a href="">
+									<img src="http://7xiwoq.com1.z0.glb.clouddn.com/hd.png" alt="">
+									<div>
+										<p>这里是标题</p>
+										<span>第二场从整体上来跟第一场比赛的节奏非常的相像，中上路依靠自己 ...</span>
+									</div>
+								</a></li>
+						</ul>
+					</div>
+					<div class="ranklist">
+						<h3>队伍列表</h3>
+						<table class="rankcon">
+							<thead>
+								<th>战队</th>
+								<th>竞技豆</th>
+								<th>状态</th>
+								<th>竞猜</th>
+							</thead>
+							<tbody>
+								<tr >
+									<td><a class="name" href="javascript:void(0);">剧组之王</a></td>
+									<td class="money">0.0</td>
+									<td class="type">正常</td>
+									<td><a class="guess" href="javascript:void(0);">竞猜</a></td>
+									
+								</tr cellspacing="5px">
+								<tr>
+									<td><a class="name" href="javascript:void(0);">剧组之王</a></td>
+									<td class="money">0.0</td>
+									<td class="type">正常</td>
+									<td><a class="guess" href="javascript:void(0);">竞猜</a></td>
+								</tr>
+								<tr>
+									<td><a class="name" href="javascript:void(0);">剧组之王</a></td>
+									<td class="money">0.0</td>
+									<td class="type">正常</td>
+									<td><a class="guess" href="javascript:void(0);">竞猜</a></td>
+								</tr>
+								<tr>
+									<td><a class="name" href="javascript:void(0);">剧组之王</a></td>
+									<td class="money">0.0</td>
+									<td class="type">正常</td>
+									<td><a class="guess" href="javascript:void(0);">竞猜</a></td>
+								</tr>
+								<tr>
+									<td><a class="name" href="javascript:void(0);">剧组之王</a></td>
+									<td class="money">0.0</td>
+									<td class="type">正常</td>
+									<td><a class="guess" href="javascript:void(0);">竞猜</a></td>
+								</tr>
+								<tr>
+									<td><a class="name" href="javascript:void(0);">剧组之王</a></td>
+									<td class="money">0.0</td>
+									<td class="type">正常</td>
+									<td><a class="guess" href="javascript:void(0);">竞猜</a></td>
+								</tr>
+								<tr>
+									<td><a class="name" href="javascript:void(0);">剧组之王</a></td>
+									<td class="money">0.0</td>
+									<td class="type">正常</td>
+									<td><a class="guess" href="javascript:void(0);">竞猜</a></td>
+								</tr>
+								<tr>
+									<td><a class="name" href="javascript:void(0);">剧组之王</a></td>
+									<td class="money">0.0</td>
+									<td class="type">正常</td>
+									<td><a class="guess" href="javascript:void(0);">竞猜</a></td>
+								</tr>
+								<tr>
+									<td><a class="name" href="javascript:void(0);">剧组之王</a></td>
+									<td class="money">0.0</td>
+									<td class="type">正常</td>
+									<td><a class="guess" href="javascript:void(0);">竞猜</a></td>
+								</tr>
+								<tr>
+									<td><a class="name" href="javascript:void(0);">剧组之王</a></td>
+									<td class="money">0.0</td>
+									<td class="type">正常</td>
+									<td><a class="guess" href="javascript:void(0);">竞猜</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="infos">
+					<div class="infocon rulescon first" id="Rules">
+							<h3>这里是规则</h3>
+							<div>这里是规则内容</div>
+
+					</div>
+					<div class="infocon" id="Result">
+						
+						<div class="rulescon">
+							<h3>这里是结果标题</h3>
+							<table>
+								<thead>
+									<th>编号</th>	
+									<th>比赛时间</th>	
+									<th>主场</th>	
+									<th>比分</th>	
+									<th>客场</th>	
+									<th>裁判</th>	
+									<th>竞猜</th>	
+									<th>关注</th>
+								</thead>
+								<tbody>
+									<tr>
+										<td align="center" class="xSline">1526</td>
+										<td align="center" class="xSline">10-12 19:30
+										</td>
+										<td >
+											<div class="list1">
+											<a href="/initTeamIndex?id=986" target="_blank" name="team" data-teamid="986" data-comid="1526" data-hasqtip="1">JS006</a>
+											<p>
+												<img src="/img/forum1/icon/1388386393597.png" title="[法外狂徒]" alt="[法外狂徒]" width="30">
+												<img src="/img/forum1/icon/1388386639866.png" title="[雷霆咆哮]" alt="[雷霆咆哮]" width="30">
+												<img src="/img/forum1/icon/1388386428519.png" title="[风暴之怒]" alt="[风暴之怒]" width="30">
+												<img src="/img/forum1/icon/1388386247365.png" title="[不祥之刃]" alt="[不祥之刃]" width="30">
+												<img src="/img/forum1/icon/1388386677806.png" title="[流浪法师]" alt="[流浪法师]" width="30">
+												<br>
+												<img src="/img/forum1/icon/1388389018966.png" title="[蒸汽机器人]" alt="[蒸汽机器人]" width="30">
+												<img src="/img/forum1/icon/1395550517124.png" title="[疾风剑豪]" alt="[疾风剑豪]" width="30">
+												<img src="/img/forum1/icon/1388386203878.png" title="[暴走萝莉]" alt="[暴走萝莉]" width="30">
+												<img src="/img/forum1/icon/1388386577768.png" title="[九尾妖狐]" alt="[九尾妖狐]" width="30">
+												<img src="/img/forum1/icon/1388388996497.png" title="[战争之王]" alt="[战争之王]" width="30">
+
+												
+											</p>
+											</div>
+										</td>
+										<td class="pkresult">
+											<span class="tag down">&nbsp;2&nbsp;</span> - <span class="tag up">&nbsp;0&nbsp;</span><a href="#" target="_blank">查看比赛</a>
+										</td>
+										<td >
+											<div class="list2">
+											<a href="/initTeamIndex?id=986" target="_blank" name="team" data-teamid="986" data-comid="1526" data-hasqtip="1">JS006</a>
+											<p>
+												<img src="/img/forum1/icon/1388386393597.png" title="[法外狂徒]" alt="[法外狂徒]" width="30">
+												<img src="/img/forum1/icon/1388386639866.png" title="[雷霆咆哮]" alt="[雷霆咆哮]" width="30">
+												<img src="/img/forum1/icon/1388386428519.png" title="[风暴之怒]" alt="[风暴之怒]" width="30">
+												<img src="/img/forum1/icon/1388386247365.png" title="[不祥之刃]" alt="[不祥之刃]" width="30">
+												<img src="/img/forum1/icon/1388386677806.png" title="[流浪法师]" alt="[流浪法师]" width="30">
+												<br>
+												<img src="/img/forum1/icon/1388389018966.png" title="[蒸汽机器人]" alt="[蒸汽机器人]" width="30">
+												<img src="/img/forum1/icon/1395550517124.png" title="[疾风剑豪]" alt="[疾风剑豪]" width="30">
+												<img src="/img/forum1/icon/1388386203878.png" title="[暴走萝莉]" alt="[暴走萝莉]" width="30">
+												<img src="/img/forum1/icon/1388386577768.png" title="[九尾妖狐]" alt="[九尾妖狐]" width="30">
+												<img src="/img/forum1/icon/1388388996497.png" title="[战争之王]" alt="[战争之王]" width="30">
+
+											</p>
+											</div>
+										</td>
+										<td align="center" class="xSline">总裁判 </td>
+										<td><a href="javascript:QuizPop(1526);">竞猜</a></td>
+										<td ><a href="javascript:void(0);" target="_blank">QQ提醒</a></td>
+									</tr>
+									<tr>
+										<td align="center" class="xSline">1526</td>
+										<td align="center" class="xSline">10-12 19:30
+										</td>
+										<td >
+											<div class="list1">
+											<a href="/initTeamIndex?id=986" target="_blank" name="team" data-teamid="986" data-comid="1526" data-hasqtip="1">JS006</a>
+											<p>
+												<img src="/img/forum1/icon/1388386393597.png" title="[法外狂徒]" alt="[法外狂徒]" width="30">
+												<img src="/img/forum1/icon/1388386639866.png" title="[雷霆咆哮]" alt="[雷霆咆哮]" width="30">
+												<img src="/img/forum1/icon/1388386428519.png" title="[风暴之怒]" alt="[风暴之怒]" width="30">
+												<img src="/img/forum1/icon/1388386247365.png" title="[不祥之刃]" alt="[不祥之刃]" width="30">
+												<img src="/img/forum1/icon/1388386677806.png" title="[流浪法师]" alt="[流浪法师]" width="30">
+												<br>
+												<img src="/img/forum1/icon/1388389018966.png" title="[蒸汽机器人]" alt="[蒸汽机器人]" width="30">
+												<img src="/img/forum1/icon/1395550517124.png" title="[疾风剑豪]" alt="[疾风剑豪]" width="30">
+												<img src="/img/forum1/icon/1388386203878.png" title="[暴走萝莉]" alt="[暴走萝莉]" width="30">
+												<img src="/img/forum1/icon/1388386577768.png" title="[九尾妖狐]" alt="[九尾妖狐]" width="30">
+												<img src="/img/forum1/icon/1388388996497.png" title="[战争之王]" alt="[战争之王]" width="30">
+
+											</p>	
+											</div>
+										</td>
+										<td class="pkresult">
+											<span class="tag down">&nbsp;2&nbsp;</span> - <span class="tag up">&nbsp;0&nbsp;</span><a href="#" target="_blank">查看比赛</a>
+										</td>
+										<td >
+											<div class="list2">
+											<a href="/initTeamIndex?id=986" target="_blank" name="team" data-teamid="986" data-comid="1526" class="txtc6 txtB" data-hasqtip="1">JS006</a>
+											<p>
+												<img src="/img/forum1/icon/1388386393597.png" title="[法外狂徒]" alt="[法外狂徒]" width="30">
+												<img src="/img/forum1/icon/1388386639866.png" title="[雷霆咆哮]" alt="[雷霆咆哮]" width="30">
+												<img src="/img/forum1/icon/1388386428519.png" title="[风暴之怒]" alt="[风暴之怒]" width="30">
+												<img src="/img/forum1/icon/1388386247365.png" title="[不祥之刃]" alt="[不祥之刃]" width="30">
+												<img src="/img/forum1/icon/1388386677806.png" title="[流浪法师]" alt="[流浪法师]" width="30">
+												<br>
+												<img src="/img/forum1/icon/1388389018966.png" title="[蒸汽机器人]" alt="[蒸汽机器人]" width="30">
+												<img src="/img/forum1/icon/1395550517124.png" title="[疾风剑豪]" alt="[疾风剑豪]" width="30">
+												<img src="/img/forum1/icon/1388386203878.png" title="[暴走萝莉]" alt="[暴走萝莉]" width="30">
+												<img src="/img/forum1/icon/1388386577768.png" title="[九尾妖狐]" alt="[九尾妖狐]" width="30">
+												<img src="/img/forum1/icon/1388388996497.png" title="[战争之王]" alt="[战争之王]" width="30">
+
+											</p>
+											</div>
+										</td>
+										<td align="center" class="xSline">总裁判 </td>
+										<td><a href="javascript:QuizPop(1526);">竞猜</a></td>
+										<td ><a href="javascript:void(0);" target="_blank">QQ提醒</a></td>
+									</tr>
+									<tr>
+										<td align="center" class="xSline">1526</td>
+										<td align="center" class="xSline">10-12 19:30
+										</td>
+										<td >
+											<div class="list1">
+											<a href="/initTeamIndex?id=986" target="_blank" name="team" data-teamid="986" data-comid="1526" class="txtc6 txtB" data-hasqtip="1">JS006</a>
+											<p>
+												<img src="/img/forum1/icon/1388386393597.png" title="[法外狂徒]" alt="[法外狂徒]" width="30">
+												<img src="/img/forum1/icon/1388386639866.png" title="[雷霆咆哮]" alt="[雷霆咆哮]" width="30">
+												<img src="/img/forum1/icon/1388386428519.png" title="[风暴之怒]" alt="[风暴之怒]" width="30">
+												<img src="/img/forum1/icon/1388386247365.png" title="[不祥之刃]" alt="[不祥之刃]" width="30">
+												<img src="/img/forum1/icon/1388386677806.png" title="[流浪法师]" alt="[流浪法师]" width="30">
+												<br>
+												<img src="/img/forum1/icon/1388389018966.png" title="[蒸汽机器人]" alt="[蒸汽机器人]" width="30">
+												<img src="/img/forum1/icon/1395550517124.png" title="[疾风剑豪]" alt="[疾风剑豪]" width="30">
+												<img src="/img/forum1/icon/1388386203878.png" title="[暴走萝莉]" alt="[暴走萝莉]" width="30">
+												<img src="/img/forum1/icon/1388386577768.png" title="[九尾妖狐]" alt="[九尾妖狐]" width="30">
+												<img src="/img/forum1/icon/1388388996497.png" title="[战争之王]" alt="[战争之王]" width="30">
+
+											</p>	
+											</div>
+										</td>
+										<td class="pkresult">
+											<span class="tag down">&nbsp;2&nbsp;</span> - <span class="tag up">&nbsp;0&nbsp;</span><a href="#" target="_blank">查看比赛</a>
+										</td>
+										<td >
+											<div class="list2">
+											<a href="/initTeamIndex?id=986" target="_blank" name="team" data-teamid="986" data-comid="1526" class="txtc6 txtB" data-hasqtip="1">JS006</a>
+											<p>
+												<img src="/img/forum1/icon/1388386393597.png" title="[法外狂徒]" alt="[法外狂徒]" width="30">
+												<img src="/img/forum1/icon/1388386639866.png" title="[雷霆咆哮]" alt="[雷霆咆哮]" width="30">
+												<img src="/img/forum1/icon/1388386428519.png" title="[风暴之怒]" alt="[风暴之怒]" width="30">
+												<img src="/img/forum1/icon/1388386247365.png" title="[不祥之刃]" alt="[不祥之刃]" width="30">
+												<img src="/img/forum1/icon/1388386677806.png" title="[流浪法师]" alt="[流浪法师]" width="30">
+												<br>
+												<img src="/img/forum1/icon/1388389018966.png" title="[蒸汽机器人]" alt="[蒸汽机器人]" width="30">
+												<img src="/img/forum1/icon/1395550517124.png" title="[疾风剑豪]" alt="[疾风剑豪]" width="30">
+												<img src="/img/forum1/icon/1388386203878.png" title="[暴走萝莉]" alt="[暴走萝莉]" width="30">
+												<img src="/img/forum1/icon/1388386577768.png" title="[九尾妖狐]" alt="[九尾妖狐]" width="30">
+												<img src="/img/forum1/icon/1388388996497.png" title="[战争之王]" alt="[战争之王]" width="30">
+
+											</p>
+											</div>
+										</td>
+										<td align="center" class="xSline">总裁判 </td>
+										<td><a href="javascript:QuizPop(1526);">竞猜</a></td>
+										<td ><a href="javascript:void(0);" target="_blank">QQ提醒</a></td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div>
+						<div class="rulescon">
+							<h3>这里是结果标题</h3>
+							<table>
+								<thead>
+									<th>编号</th>	
+									<th>比赛时间</th>	
+									<th>主场</th>	
+									<th>比分</th>	
+									<th>客场</th>	
+									<th>裁判</th>	
+									<th>竞猜</th>	
+									<th>关注</th>
+								</thead>
+								<tbody>
+									<tr>
+										<td align="center" class="xSline">1526</td>
+										<td align="center" class="xSline">10-12 19:30
+										</td>
+										<td >
+											<div class="list1">
+											<a href="/initTeamIndex?id=986" target="_blank" name="team" data-teamid="986" data-comid="1526" data-hasqtip="1">JS006</a>
+											<p>
+												<img src="/img/forum1/icon/1388386393597.png" title="[法外狂徒]" alt="[法外狂徒]" width="30">
+												<img src="/img/forum1/icon/1388386639866.png" title="[雷霆咆哮]" alt="[雷霆咆哮]" width="30">
+												<img src="/img/forum1/icon/1388386428519.png" title="[风暴之怒]" alt="[风暴之怒]" width="30">
+												<img src="/img/forum1/icon/1388386247365.png" title="[不祥之刃]" alt="[不祥之刃]" width="30">
+												<img src="/img/forum1/icon/1388386677806.png" title="[流浪法师]" alt="[流浪法师]" width="30">
+												<br>
+												<img src="/img/forum1/icon/1388389018966.png" title="[蒸汽机器人]" alt="[蒸汽机器人]" width="30">
+												<img src="/img/forum1/icon/1395550517124.png" title="[疾风剑豪]" alt="[疾风剑豪]" width="30">
+												<img src="/img/forum1/icon/1388386203878.png" title="[暴走萝莉]" alt="[暴走萝莉]" width="30">
+												<img src="/img/forum1/icon/1388386577768.png" title="[九尾妖狐]" alt="[九尾妖狐]" width="30">
+												<img src="/img/forum1/icon/1388388996497.png" title="[战争之王]" alt="[战争之王]" width="30">
+
+												
+											</p>
+											</div>
+										</td>
+										<td class="pkresult">
+											<span class="tag down">&nbsp;2&nbsp;</span> - <span class="tag up">&nbsp;0&nbsp;</span><a href="#" target="_blank">查看比赛</a>
+										</td>
+										<td >
+											<div class="list2">
+											<a href="/initTeamIndex?id=986" target="_blank" name="team" data-teamid="986" data-comid="1526" data-hasqtip="1">JS006</a>
+											<p>
+												<img src="/img/forum1/icon/1388386393597.png" title="[法外狂徒]" alt="[法外狂徒]" width="30">
+												<img src="/img/forum1/icon/1388386639866.png" title="[雷霆咆哮]" alt="[雷霆咆哮]" width="30">
+												<img src="/img/forum1/icon/1388386428519.png" title="[风暴之怒]" alt="[风暴之怒]" width="30">
+												<img src="/img/forum1/icon/1388386247365.png" title="[不祥之刃]" alt="[不祥之刃]" width="30">
+												<img src="/img/forum1/icon/1388386677806.png" title="[流浪法师]" alt="[流浪法师]" width="30">
+												<br>
+												<img src="/img/forum1/icon/1388389018966.png" title="[蒸汽机器人]" alt="[蒸汽机器人]" width="30">
+												<img src="/img/forum1/icon/1395550517124.png" title="[疾风剑豪]" alt="[疾风剑豪]" width="30">
+												<img src="/img/forum1/icon/1388386203878.png" title="[暴走萝莉]" alt="[暴走萝莉]" width="30">
+												<img src="/img/forum1/icon/1388386577768.png" title="[九尾妖狐]" alt="[九尾妖狐]" width="30">
+												<img src="/img/forum1/icon/1388388996497.png" title="[战争之王]" alt="[战争之王]" width="30">
+
+											</p>
+											</div>
+										</td>
+										<td align="center" class="xSline">总裁判 </td>
+										<td><a href="javascript:QuizPop(1526);">竞猜</a></td>
+										<td ><a href="javascript:void(0);" target="_blank">QQ提醒</a></td>
+									</tr>
+									<tr>
+										<td align="center" class="xSline">1526</td>
+										<td align="center" class="xSline">10-12 19:30
+										</td>
+										<td >
+											<div class="list1">
+											<a href="/initTeamIndex?id=986" target="_blank" name="team" data-teamid="986" data-comid="1526" data-hasqtip="1">JS006</a>
+											<p>
+												<img src="/img/forum1/icon/1388386393597.png" title="[法外狂徒]" alt="[法外狂徒]" width="30">
+												<img src="/img/forum1/icon/1388386639866.png" title="[雷霆咆哮]" alt="[雷霆咆哮]" width="30">
+												<img src="/img/forum1/icon/1388386428519.png" title="[风暴之怒]" alt="[风暴之怒]" width="30">
+												<img src="/img/forum1/icon/1388386247365.png" title="[不祥之刃]" alt="[不祥之刃]" width="30">
+												<img src="/img/forum1/icon/1388386677806.png" title="[流浪法师]" alt="[流浪法师]" width="30">
+												<br>
+												<img src="/img/forum1/icon/1388389018966.png" title="[蒸汽机器人]" alt="[蒸汽机器人]" width="30">
+												<img src="/img/forum1/icon/1395550517124.png" title="[疾风剑豪]" alt="[疾风剑豪]" width="30">
+												<img src="/img/forum1/icon/1388386203878.png" title="[暴走萝莉]" alt="[暴走萝莉]" width="30">
+												<img src="/img/forum1/icon/1388386577768.png" title="[九尾妖狐]" alt="[九尾妖狐]" width="30">
+												<img src="/img/forum1/icon/1388388996497.png" title="[战争之王]" alt="[战争之王]" width="30">
+
+											</p>	
+											</div>
+										</td>
+										<td class="pkresult">
+											<span class="tag down">&nbsp;2&nbsp;</span> - <span class="tag up">&nbsp;0&nbsp;</span><a href="#" target="_blank">查看比赛</a>
+										</td>
+										<td >
+											<div class="list2">
+											<a href="/initTeamIndex?id=986" target="_blank" name="team" data-teamid="986" data-comid="1526" class="txtc6 txtB" data-hasqtip="1">JS006</a>
+											<p>
+												<img src="/img/forum1/icon/1388386393597.png" title="[法外狂徒]" alt="[法外狂徒]" width="30">
+												<img src="/img/forum1/icon/1388386639866.png" title="[雷霆咆哮]" alt="[雷霆咆哮]" width="30">
+												<img src="/img/forum1/icon/1388386428519.png" title="[风暴之怒]" alt="[风暴之怒]" width="30">
+												<img src="/img/forum1/icon/1388386247365.png" title="[不祥之刃]" alt="[不祥之刃]" width="30">
+												<img src="/img/forum1/icon/1388386677806.png" title="[流浪法师]" alt="[流浪法师]" width="30">
+												<br>
+												<img src="/img/forum1/icon/1388389018966.png" title="[蒸汽机器人]" alt="[蒸汽机器人]" width="30">
+												<img src="/img/forum1/icon/1395550517124.png" title="[疾风剑豪]" alt="[疾风剑豪]" width="30">
+												<img src="/img/forum1/icon/1388386203878.png" title="[暴走萝莉]" alt="[暴走萝莉]" width="30">
+												<img src="/img/forum1/icon/1388386577768.png" title="[九尾妖狐]" alt="[九尾妖狐]" width="30">
+												<img src="/img/forum1/icon/1388388996497.png" title="[战争之王]" alt="[战争之王]" width="30">
+
+											</p>
+											</div>
+										</td>
+										<td align="center" class="xSline">总裁判 </td>
+										<td><a href="javascript:QuizPop(1526);">竞猜</a></td>
+										<td ><a href="javascript:void(0);" target="_blank">QQ提醒</a></td>
+									</tr>
+									<tr>
+										<td align="center" class="xSline">1526</td>
+										<td align="center" class="xSline">10-12 19:30
+										</td>
+										<td >
+											<div class="list1">
+											<a href="/initTeamIndex?id=986" target="_blank" name="team" data-teamid="986" data-comid="1526" class="txtc6 txtB" data-hasqtip="1">JS006</a>
+											<p>
+												<img src="/img/forum1/icon/1388386393597.png" title="[法外狂徒]" alt="[法外狂徒]" width="30">
+												<img src="/img/forum1/icon/1388386639866.png" title="[雷霆咆哮]" alt="[雷霆咆哮]" width="30">
+												<img src="/img/forum1/icon/1388386428519.png" title="[风暴之怒]" alt="[风暴之怒]" width="30">
+												<img src="/img/forum1/icon/1388386247365.png" title="[不祥之刃]" alt="[不祥之刃]" width="30">
+												<img src="/img/forum1/icon/1388386677806.png" title="[流浪法师]" alt="[流浪法师]" width="30">
+												<br>
+												<img src="/img/forum1/icon/1388389018966.png" title="[蒸汽机器人]" alt="[蒸汽机器人]" width="30">
+												<img src="/img/forum1/icon/1395550517124.png" title="[疾风剑豪]" alt="[疾风剑豪]" width="30">
+												<img src="/img/forum1/icon/1388386203878.png" title="[暴走萝莉]" alt="[暴走萝莉]" width="30">
+												<img src="/img/forum1/icon/1388386577768.png" title="[九尾妖狐]" alt="[九尾妖狐]" width="30">
+												<img src="/img/forum1/icon/1388388996497.png" title="[战争之王]" alt="[战争之王]" width="30">
+
+											</p>	
+											</div>
+										</td>
+										<td class="pkresult">
+											<span class="tag down">&nbsp;2&nbsp;</span> - <span class="tag up">&nbsp;0&nbsp;</span><a href="#" target="_blank">查看比赛</a>
+										</td>
+										<td >
+											<div class="list2">
+											<a href="/initTeamIndex?id=986" target="_blank" name="team" data-teamid="986" data-comid="1526" class="txtc6 txtB" data-hasqtip="1">JS006</a>
+											<p>
+												<img src="/img/forum1/icon/1388386393597.png" title="[法外狂徒]" alt="[法外狂徒]" width="30">
+												<img src="/img/forum1/icon/1388386639866.png" title="[雷霆咆哮]" alt="[雷霆咆哮]" width="30">
+												<img src="/img/forum1/icon/1388386428519.png" title="[风暴之怒]" alt="[风暴之怒]" width="30">
+												<img src="/img/forum1/icon/1388386247365.png" title="[不祥之刃]" alt="[不祥之刃]" width="30">
+												<img src="/img/forum1/icon/1388386677806.png" title="[流浪法师]" alt="[流浪法师]" width="30">
+												<br>
+												<img src="/img/forum1/icon/1388389018966.png" title="[蒸汽机器人]" alt="[蒸汽机器人]" width="30">
+												<img src="/img/forum1/icon/1395550517124.png" title="[疾风剑豪]" alt="[疾风剑豪]" width="30">
+												<img src="/img/forum1/icon/1388386203878.png" title="[暴走萝莉]" alt="[暴走萝莉]" width="30">
+												<img src="/img/forum1/icon/1388386577768.png" title="[九尾妖狐]" alt="[九尾妖狐]" width="30">
+												<img src="/img/forum1/icon/1388388996497.png" title="[战争之王]" alt="[战争之王]" width="30">
+
+											</p>
+											</div>
+										</td>
+										<td align="center" class="xSline">总裁判 </td>
+										<td><a href="javascript:QuizPop(1526);">竞猜</a></td>
+										<td ><a href="javascript:void(0);" target="_blank">QQ提醒</a></td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="infocon rulescon" id="Common">
+						<h3>这里是评论</h3>
+						<div>这里是评论</div>
+					</div>
+				</div>	
+				
+			</div>
+
+		</div>
+	</div>
+	<script type="text/javascript">
+	function tabInit(a,b,fun){
+		a.on(fun,function(e){
+			e.stopPropagation();
+			var inde = a.index(this);
+			a.removeClass("active").eq(inde).addClass("active");
+			b.hide().eq(inde).show();
+		})
+	}
+	$().ready(function(){
+		/*选择网吧*/
+		var $areCon = $("#areCon");
+		var actprv = 0;
+		var actcit = 0;
+
+		$("#prvList").on('click', 'li', function(event) {
+			event.preventDefault();
+			var $this = $(this);
+			$("#prvList li").removeClass('active');
+			$this.addClass('active');
+			$("#tabcity li").first().addClass('active');
+			actprv = $this.data('prv');
+			$areCon.find('li').not('.first').hide();
+			$areCon.find("li").filter(function(index) {
+				return $(this).data("prv") == actprv ;
+			}).show();
+
+		});
+		$("#tabcity").on('click', 'li', function(event) {
+			event.preventDefault();
+			var $this = $(this);
+			$("#tabcity li").removeClass('active');
+			$this.addClass('active');
+
+			actcit = $this.data('cit');
+			$("#listBa").find('li').hide();
+
+			$("#listBa").find('li').filter(function(index) {
+				if (actcit !=0) {
+					return $(this).data("cit") == actcit && $(this).data("prv") == actprv;
+				}else{
+					return $(this).data("prv") == actprv;
+				}
+			}).show();
+
+		});
+		$("#prvList li").first().click();
+
+		/*内容切换*/
+
+		tabInit($(".infotab li"),$(".infos>div"),"mouseenter");
+		var infoconl = [];
+		$(".infocon").each(function(){
+			infoconl.push(parseInt($(this).css("height")))
+		})
+		var maxheight = Math.max.apply(null, infoconl)
+		console.log(maxheight);
+		$(".infos").css("height",maxheight+"px");
+	})
+</script>
+</body>
+</html>
