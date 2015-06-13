@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>基金内容</title>
+	<link rel="stylesheet" href="/css/fund.css">
+	<script type="text/javascript" src="http://libs.useso.com/js/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+	<!--#<!--#include file="/include/head.html"-->
+	<div class="nwrap clearfix f_fundinfo">
+		<div class="fundtitles gradient_bar">
+			<h2>这里是名称</h2>
+			<span class="rnotes">| 投资协议范本</span>
+			<div class="shares">分享：</div>
+		</div>
+		<div class="fundtop fundclist">
+			<div class="step clearfix">
+				<p class="all">发行总额：<em>123,456,789</em></p>
+				<p class="can">可投金额：<em>5248</em></p>
+				<p class="user">投资人数：<em>12345678人</em></p>
+				<form action="/">
+					<button type="button" id="chatBtn" class="action">发送</button>
+					<label for=""><input type="text" class="values"></label>
+				</form>
+			</div>
+			<div class="info">
+				<div class="img"><img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt=""><em class="">英雄联盟</em></div>
+				<div class="mains">
+					<p class="msg">这里是战队描述，巴黎警方的快速反击的开始了大幅加快,这里是战队描述，巴黎警方的快速反击的开始了大幅加快这里是战队描述，巴黎警方的快速反击的开始了大幅加快,这里是战队描述，巴黎警方的快速反击的开始了大幅加快</p>
+					<div class="rank clearfix">
+						<span class="ranks1"><i>今日收益</i><em>+5.0%</em></span>
+						<span class="ranks2"><i>当前排名</i><em>798</em></span>
+						<span class="ranks3"><i>粉丝数量</i><em>12345678</em></span>
+						<span class="ranks4"><i>基金单价</i><em>500</em></span>
+					</div>
+					<div class="otherinf">
+						<p>
+							<span><i>今日收益：</i><em>+5.0%</em></span>
+							<span><i>当前排名：</i><em>798</em></span>
+							<span><i>粉丝数量：</i><em>12345678</em></span>
+						</p>
+						<p>
+							<span><i>今日收益：</i><em>+5.0%</em></span>
+							<span><i>当前排名：</i><em>798</em></span>
+							<span><i>粉丝数量：</i><em>12345678</em></span>
+						</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="fundleft">
+			<div class="fundleftmain">
+			zuo
+			</div>
+		</div>
+		<div class="fundright">
+			<div class="fundrightmain">
+				<div class="fundrtab clearfix">
+					<a class="active" href="javascript:void(0);">公告信息</a>
+					<a href="javascript:void(0);">现役队员</a>
+				</div>
+				<div class="cont publicmsg">
+					这里是公告
+				</div>
+				<div class="cont userlist">
+					这里是队员列表
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function tabInit(a,b){
+		    a.click(function(e){
+		        e.stopPropagation();
+		        var inde = a.index(this);
+		        a.removeClass("active").eq(inde).addClass("active");
+		        b.hide().eq(inde).show();
+		    })
+		}
+		$(document).ready(function() {
+				tabInit($(".fundrtab a"),$(".fundrightmain .cont"));
+		});
+	</script>
+</body>
+</html>

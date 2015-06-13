@@ -13,7 +13,7 @@
 
 	<div class="nwrap f_bar">
 		
-		<div class="f_bartop">
+		<div class="f_bartop gradient_bar">
 			<span class="f_bar_act">
 				<a href="javascript:void(0);"><i class="icf">&#xe61b;</i>刷新房间</a>
 				<a href="javascript:void(0);"><i class="icf">&#xe61a;</i>全部列表</a>
