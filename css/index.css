@@ -280,6 +280,9 @@ div.f_bar{margin-top: 10px;}
 .f_bar_act{float: right;}
 .f_bar_act a{margin-right: 15px;}
 .f_bar_act a i{padding-right: 5px;}
+.f_bar_search .inputs{width: 150px;margin-right: 10px;border-radius: 3px;border: 1px solid #ccc;  height: 23px;
+  line-height: 23px;}
+.f_bar_search .btn{border-radius: 4px;}
 
 .f_bar_list{background: #fff;font-size: 12px;overflow: hidden;width: 1198px;border: 1px solid #ccc;  position: relative;
   top: -1px;}
