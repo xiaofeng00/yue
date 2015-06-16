@@ -6,7 +6,7 @@ green  #42c522
 
  */
 
-body{background: #f6f6f6;color: #2a2a2a;font-size: 12px;}
+body{background: #f6f6f6;color: #2a2a2a;font-size: 14px;}
 a{color: #2a2a2a;}
 .gradient_bar{  background-color: #f5f5f5;
   background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
@@ -46,7 +46,7 @@ a{color: #2a2a2a;}
 
 
 /* 详细信息 */
-.f_fundinfo{padding-top: 20px;}
+.f_fundinfo{padding-top: 20px;padding-bottom: 30px;}
 .fundtitles{border: 1px solid #e9e9e9;height: 40px;line-height: 40px;}
 .fundtitles h2{font-weight: normal;display: inline-block;float: left;text-indent: 25px;}
 .fundtitles .rnotes,.fundtitles .shares{float: right;margin-right: 20px;}
@@ -60,7 +60,7 @@ a{color: #2a2a2a;}
 .fundtop .rank{padding-left: 10px;}
 .fundtop .otherinf{margin-top: 10px;}
 .fundtop .otherinf p{margin: 0;height: 30px;line-height: 30px;}
-.fundtop .otherinf p span{width: 155px;display: inline-block;text-indent:30px; }
+.fundtop .otherinf p span{width: 185px;display: inline-block;text-indent:30px; }
 .fundtop .step{background: #EDE8E8;border: 0;padding: 10px;  width: 250px;}
 .fundtop .step form{width: 100%;display: block;margin-top: 25px;padding-bottom: 15px;}
 .fundtop .step label{margin-right: 72px;display: block;*position: relative;}
@@ -68,16 +68,27 @@ a{color: #2a2a2a;}
 .fundtop .step .values,.fundtop .step .action{border: 0;height: 35px;line-height: 35px;background: #fff;}
 .fundtop .step .action{float: right;width: 72px;background: #ff722c;color: #fff;}
 
-.fundleft,.fundright{border: 1px solid #e9e9e9;margin-top: 20px;background: #fff;min-height: 305px;}
+.fundleft,.fundright{border: 1px solid #e9e9e9;margin-top: 20px;background: #fff;min-height: 325px;}
 .fundleft>div,.fundright>div{padding: 10px;}
 .fundleft{width: 748px;float: left;}
 .fundright{width: 438px;float: right;}
 
-.fundright .fundrtab a{width: 98px;height: 25px;line-height: 25px; text-align: left;display:block;float: left;}
-.fundright .fundrtab .active,.fundright .fundrtab a:hover{color: #ff722c;}
+.fundltab{height: 43px;border-bottom: 1px solid #e9e9e9;}
+.fundltab a{height: 30px;line-height: 30px;width: 78px;text-align: center;border: 2px solid #fff;display: block;margin-right: 20px;float: left;}
+.fundltab a.active,.fundltab a:hover{border: 2px solid #c7c5c5;border-radius: 4px;background: #f5f5f5;}
+.fundlranktt{width: 385px;float: right;height: 43px;line-height: 36px;}
+.fundleft .cont{width: 335px;float: left;height: 260px;margin-top: 40px;height: 200px;}
+.fundlranklist{width: 380px;float: right;margin-top: 40px;}
+.fundlranklist li{height: 38px;line-height: 38px;padding: 0 20px 0 40px;}
+.fundlranklist .odd{background: #f5f5f5;}
+.fundlranklist em{float: right;}
 
-.fundright .cont{display: none;}
-.fundright .publicmsg{display: block;}
+
+
+.fundright .fundrtab a{width: 98px;height: 36px;line-height: 36px; text-align: left;display:block;float: left;}
+.fundright .fundrtab .active,.fundright .fundrtab a:hover{color: #ff722c;}
+.fundright .cont,.fundleft .cont{display: none;}
+.fundright .publicmsg,.fundleft .picprice{display: block;}
 
 /* 右侧最多访问 */
 .visitmost{}
