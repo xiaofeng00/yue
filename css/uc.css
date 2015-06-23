@@ -46,8 +46,12 @@
 .table_top a{font-size: 16px;display: inline-block;padding: 0 5px;}
 .table_top a:hover{color: #f86400;text-decoration: none;}
 
-
-
+.table_tab{font-weight: normal;text-indent: 0;margin-top: 0;}
+.table_tab a{margin-right: 15px;border: 1px solid #ccc;background: #f7f7f7;padding: 0 15px;height: 30px;line-height: 30px; color: #535353;}
+.table_tab a.active,.table_tab a:hover{background: #ff7e00;color: #fff;}
+.table_tab a:focus,.table_tab a:hover{text-decoration: none;}
+#con_fund .table{display: none;}
+#con_fund .table_fund1{display: table;}
 
 
 
