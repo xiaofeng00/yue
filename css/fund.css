@@ -144,12 +144,12 @@ a{color: #2a2a2a;}
 }
 .diagcon a:hover{color:#ff722c; }
 .diagcon_i{padding: 10px 45px;}
-.diagcon_i .msgrop{margin-bottom: 10px;  height: 100%;color: #535353;font-size: 14px;line-height: 20px;}
+.diagcon_i .msgrop{margin-bottom: 10px; color: #535353;font-size: 14px;line-height: 20px;}
 .diagcon_i .msgrop label{float: left;display: block;margin-bottom: 5px;
   width: 85px;
   padding-top: 5px;
   text-align: right;}
-.diagcon_i .msgropb{border: 1px solid #ccc;padding-top: 10px; background: #fffff1;}
+.diagcon_i .msgropb{border: 1px solid #ccc;padding-top: 10px;*padding-bottom: 10px; background: #fffff1;}
 .diagcon_i .msgrop .ctr{margin-left: 85px;  padding-top: 5px;}
 
 .buyfund .name{color: #ff722c;}
@@ -160,8 +160,7 @@ a{color: #2a2a2a;}
 .buyfund .canbuy em{padding-right: 10px;display: inline-block;}
 .buyfund .btns{padding: 2px 10px;margin-right: 10px;display: inline-block;border-radius: 3px; margin: 0 auto;}
 .buyfund .bottom{text-align: center;margin-top: 15px;}
-#con_fund .table{display: none;}
-#con_fund .table_fund1{display: block;}
+
 
 
 
