@@ -33,16 +33,48 @@ green  #42c522
 
 
 
-body{background: #f6f6f6;color: #2a2a2a;font-size: 14px;}
-a{color: #2a2a2a;}
-.down{color: #ff0000;}
-.up{color: #87ca01;}
+body{background: #f6f6f6;color: #535353;font-size: 14px;  font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif;}
+a{color: #535353;}
 .gradient_bar{  background-color: #f5f5f5;
   background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
   background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
   background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);
   background-image: -o-linear-gradient(top,#fff,#e6e6e6);
   background-image: linear-gradient(to bottom,#fff,#e6e6e6);}
+  
+  
+.bg-yellow {
+    background-color: #f60;
+    color: #fff;
+}
+.bg-blue {
+    background-color: #3597fa;
+    color: #fff;
+}
+.bg-ta {
+    background-color: #87ca01;
+    color: #fff;
+}
+.bg-te {
+    background-color: #cecd01;
+    color: #fff;
+}
+.bg-td {
+    background-color: #333333;
+    color: #fff;
+}
+.bg-green {
+    background-color: #eeffdd;
+    color: #22cc77;
+}
+.bg-red {
+    background-color: #ee3333;
+    color: #fff;
+}
+.bg-red-light {
+    background-color: #ffeeee;
+    color: #ee3333;
+}  
 
 .nwrap .fr{  width: 295px;float: right;}
 .nwrap .fr>div{  border: 1px solid #e9e9e9;padding: 10px;margin-bottom: 10px;background: #fff; }
@@ -51,19 +83,33 @@ a{color: #2a2a2a;}
 .nwrap .main ul{padding: 0px 0 10px 10px;}
 .f_fundlist{padding-top: 20px;padding-bottom: 30px;}
 .fundclist li{margin-bottom: 12px;border: 1px solid #e9e9e9;position: relative; background: #fff;padding: 10px;padding-bottom: 15px; clear: both;}
+.fundclist li:hover{border:1px solid #ff7e00;}
+.fundclist li:hover .gos{display:inline-block;}
+
+
 
 .fundclist .img{float: left;width: 103px;text-align: center;*position: absolute;left: 10px;top: 10px;}
 .fundclist .img img{width: 80px;height: 80px;border: 1px solid #e9e9e9;display: block;margin: 5px auto 15px;}
-.fundclist .mains{padding-left: 105px;width: 550px;}
-.fundclist .name{width: 150px;margin-right: 50px; font-weight: bold;font-size: 18px;  display: inline-block;text-indent: 5px;}
-.fundclist .uid2{float: right;}
+.fundclist .mains{padding-left: 105px;width: 550px;  display: block;}
+.fundclist .name{width: 150px;margin-right: 50px;white-space: nowrap; font-weight: bold;font-size: 18px;  display: inline-block;text-indent: 5px;}
+.fundclist .uid2{float: right;color:#ff722c;}
+.fundclist .lvl em{border-radius: 3px;padding:2px;}
 .fundclist .mains p{margin-bottom: 15px;line-height: 25px;}
-.fundclist .msg{text-indent: 1em;display: inline-block;}
-.fundclist .gos{display: inline-block;width: 100px;text-align: center;float: right;color: #ff722c;}
+.fundclist .msg{text-indent: 1em;display: inline-block;color:#999;}
+.fundclist .gos{display: none;width: 100px;text-align: center;float: right;color: #ff722c;}
+
+.fundclist a:hover .name,.fundclist a:hover .lvl,.fundclist a:hover .rank{color: #535353;}
+.fundclist a:hover .msg{color:#999;}
+
 .fundclist .rank{/* border-right: 1px solid #e9e9e9; */padding-top: 15px;*clear:both;}
-.fundclist .rank span{border-left: 1px solid #e9e9e9;border-bottom: 1px solid #e9e9e9;width: 136px; display: block;float: left;text-align: center;}
+.fundclist .rank span{border-right: 1px solid #e9e9e9;border-bottom: 1px solid #e9e9e9;width: 136px; display: block;float: left;text-align: center;}
 .fundclist .rank i,.fundclist .rank em{display: block;margin-bottom: 15px;}
-.ranks4{border-right: 1px solid #e9e9e9;}
+.ranks1{border-left: 1px solid #e9e9e9;}
+.fundclist .rank .up{color:#42c522;}
+.fundclist .rank .down{color:#f00;}
+.fundclist .rank .all{color:#ff722c;}
+.rank em{font-size:25px;}
+.ranks4 em{ color: #ff722c;}
 
 
 .fundclist .step{float: right;border-left: 1px solid #e9e9e9;  width: 185px;}
@@ -72,7 +118,7 @@ a{color: #2a2a2a;}
 .fundclist .step .all em{color: #ff722c;}
 .fundclist .step .can em{color: #42c522;}
 .fundclist .step .disable{background: #959595;border-bottom: 1px solid #767676;cursor: default;}
-
+.showmore{text-align: center;display: block;}
 
 /* 详细信息 */
 .f_fundinfo{padding-top: 20px;padding-bottom: 30px;}
@@ -128,27 +174,14 @@ a{color: #2a2a2a;}
 .visitmost .name{font-size: 14px;display: block;}
 .visitmost li a:hover{color: #ff722c;}
 
-.diag{
-	filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);
-	width: 100%;height: 100%;
-	position: absolute;left: 0px;top: 0px;z-index: 10;
-	display: none;
-}
+.diag{filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);width: 100%;height: 100%;position: absolute;left: 0px;top: 0px;z-index: 10;display: none;}
 .diag.active{display: block;}
-.diagcon{
-	position: absolute;width: 430px;height: 280px;left: 50%;top: 50%; margin: -140px 0 0 -215px; border: 1px solid #ccc;background: #fff;
-
-}
-.diagcon .close{
-	width: 25px;height: 25px;position: absolute;right: 0px;top: 2px;font-weight: bold;font-size: 20px; line-height: 25px;text-align: center;
-}
+.diagcon{position: absolute;width: 430px;height: 280px;left: 50%;top: 50%; margin: -140px 0 0 -215px; border: 1px solid #ccc;background: #fff;}
+.diagcon .close{width: 25px;height: 25px;position: absolute;right: 0px;top: 2px;font-weight: bold;font-size: 20px; line-height: 25px;text-align: center;}
 .diagcon a:hover{color:#ff722c; }
 .diagcon_i{padding: 10px 45px;}
 .diagcon_i .msgrop{margin-bottom: 10px; color: #535353;font-size: 14px;line-height: 20px;}
-.diagcon_i .msgrop label{float: left;display: block;margin-bottom: 5px;
-  width: 85px;
-  padding-top: 5px;
-  text-align: right;}
+.diagcon_i .msgrop label{float: left;display: block;margin-bottom: 5px;width: 85px;padding-top: 5px;text-align: right;}
 .diagcon_i .msgropb{border: 1px solid #ccc;padding-top: 10px;*padding-bottom: 10px; background: #fffff1;}
 .diagcon_i .msgrop .ctr{margin-left: 85px;  padding-top: 5px;}
 
