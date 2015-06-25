@@ -12,6 +12,34 @@
 	<!--#<!--#include file="/include/head.html"-->
 	<div class="nwrap clearfix f_fundlist">
 		<div class="main">
+			<div class="fundlisttop">
+				<div class="fund_search">
+					<p class="fund_allinfo">
+						股东人数：<em>123456人</em>&nbsp;&nbsp;|&nbsp;&nbsp;累计投资：<em>123456</em>&nbsp;&nbsp;|&nbsp;&nbsp;累计收益：<em>123456</em>
+					</p>
+					<form action="" class="fund_searchr">
+						<input type="text" placeholder="请输入查询内容"><button type="submit" class="btn">查询</button>
+					</form>
+					<div class="fund_searchl">
+						<p>类型：<a href="javascript:void(0);">全部</a>
+						<a href="javascript:void(0);" class="active">全部</a>
+						<a href="javascript:void(0);">全部</a>
+						<a href="javascript:void(0);">全部</a>
+						</p>
+						<p>等级：<a href="javascript:void(0);">全部</a>
+						<a href="javascript:void(0);">全部</a>
+						<a href="javascript:void(0);">全部</a>
+						<a href="javascript:void(0);">全部</a>
+						</p>
+					</div>
+					
+				</div>
+				<div class="fund_listtab clearfix">
+					<span class="note">交易单位及额度均已竞技豆结算</span>
+					<a class="active" href="javascript:void(0);">投资列表<em class=""></em></a>
+					<a href="javascript:void(0);">投资列表<em class=""></em></a>
+				</div>
+			</div>
 			<ul class="fundclist">
 				<li>
 					<div class="step clearfix">
@@ -28,7 +56,7 @@
 								<span class="name">小当家战队</span>
 								<span class="lvl">当前等级:无畏</span>
 							</p>
-							<p><span class="msg">这里是战队描述，巴黎警方的快速反击的开始了大幅加快</span><a href="" class="gos">查看详情</a></p>
+							<p clas="msg_w"><a href="" class="gos">查看详情</a><span class="msg">这里是战队描述，巴黎警方的快速反击的开始了大幅加快</span></p>
 							<div class="rank clearfix">
 								<span class="ranks1"><i>今日收益</i><em>+5.0%</em></span>
 								<span class="ranks2"><i>当前排名</i><em>798</em></span>
@@ -54,7 +82,7 @@
 								<span class="name">小当家战队</span>
 								<span class="lvl">当前等级:无畏</span>
 							</p>
-							<p><span class="msg">这里是战队描述，巴黎警方的快速反击的开始了大幅加快</span><a href="" class="gos">查看详情</a></p>
+							<p clas="msg_w"><a href="" class="gos">查看详情</a><span class="msg">这里是战队描述，巴黎警方的快速反击的开始了大幅加快</span></p>
 							<div class="rank clearfix">
 								<span class="ranks1"><i>今日收益</i><em>+5.0%</em></span>
 								<span class="ranks2"><i>当前排名</i><em>798</em></span>
@@ -80,7 +108,7 @@
 								<span class="name">小当家战队</span>
 								<span class="lvl">当前等级:无畏</span>
 							</p>
-							<p><span class="msg">这里是战队描述，巴黎警方的快速反击的开始了大幅加快</span><a href="" class="gos">查看详情</a></p>
+							<p clas="msg_w"><a href="" class="gos">查看详情</a><span class="msg">这里是战队描述，巴黎警方的快速反击的开始了大幅加快</span></p>
 							<div class="rank clearfix">
 								<span class="ranks1"><i>今日收益</i><em>+5.0%</em></span>
 								<span class="ranks2"><i>当前排名</i><em>798</em></span>
@@ -97,16 +125,48 @@
 				<h3>大家都在参加那些比赛？</h3>
 				<ul>
 					<li><a href="" target="_blank">
-							<img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt="">
-							<div class="info"><em class="name">这里是名称</em><em class="note">这里是描述很长的</em></div>
+							<img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt=""><div class="info"><em class="name">这里是名称</em><em class="note">这里是描述很长的</em></div>
 						</a></li>
 					<li><a href="" target="_blank">
-							<img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt="">
-							<div class="info"><em class="name">这里是名称</em><em class="note">这里是描述很长的</em></div>
+							<img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt=""><div class="info"><em class="name">这里是名称</em><em class="note">这里是描述很长的</em></div>
 						</a></li>
 					<li><a href="" target="_blank">
-							<img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt="">
-							<div class="info"><em class="name">这里是名称</em><em class="note">这里是描述很长的</em></div>
+							<img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt=""><div class="info"><em class="name">这里是名称</em><em class="note">这里是描述很长的</em></div>
+						</a></li>
+				</ul>
+			</div>
+			<div class="fundrank">
+				<h3>基金排行</h3>
+				<ul>
+					<li><a href="">
+							<span class="num">123456竞技豆</span>
+							<em class="eq eqspe"><i class="icf">&#xe61c;</i><b>1</b></em>
+							<span class="name">这里是名称</span>
+							
+						</a></li>
+					<li><a href="">
+							<span class="num">123456竞技豆</span>
+							<em class="eq eqspe"><i class="icf">&#xe61c;</i><b>2</b></em>
+							<span class="name">这里是名称</span>
+							
+						</a></li>
+					<li><a href="">
+							<span class="num">123456竞技豆</span>
+							<em class="eq eqspe"><i class="icf">&#xe61c;</i><b>3</b></em>
+							<span class="name">这里是名称</span>
+							
+						</a></li>
+					<li><a href="">
+							<span class="num">123456竞技豆</span>
+							<em class="eq"><i class="icf">&#xe61c;</i><b>4</b></em>
+							<span class="name">这里是名称</span>
+							
+						</a></li>
+					<li><a href="">
+							<span class="num">123456竞技豆</span>
+							<em class="eq"><i class="icf">&#xe61c;</i><b>5</b></em>
+							<span class="name">这里是名称</span>
+							
 						</a></li>
 				</ul>
 			</div>

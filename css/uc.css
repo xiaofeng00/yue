@@ -30,8 +30,8 @@
 
 
 .uc_cont table{margin-top: 20px;}
-.uc_cont .down{color: #ff0000;}
-.uc_cont .up{color: #87ca01;}
+.uc_cont .down,.down{color: #ff0000;}
+.uc_cont .up,.up{color: #87ca01;}
 .table_handle {margin-top: 20px;}
 .table_handle button{margin-right: 15px;}
 
@@ -50,10 +50,65 @@
 .table_tab a{margin-right: 15px;border: 1px solid #ccc;background: #f7f7f7;padding: 0 15px;height: 30px;line-height: 30px; color: #535353;}
 .table_tab a.active,.table_tab a:hover{background: #ff7e00;color: #fff;}
 .table_tab a:focus,.table_tab a:hover{text-decoration: none;}
-#con_fund .table{display: none;}
+#con_fund .table_fund{display: none;}
+#con_fund .table_my{display: table;}
 #con_fund .table_fund1{display: table;}
+.title4{margin-top: 15px;}
 
 
+
+.fundtop{background: #fff;border: 1px solid #e9e9e9;padding: 12px;position: relative; }
+.fundtop .img{width: 125px;*position: absolute;left: 10px;top: 10px;float: left;text-align: center; }
+.fundtop .img img{margin-top: 10px;}
+.fundtop .mains{padding-left: 145px;width: 690px;}
+.fundtop .rank{padding-left: 10px;}
+.fundtop .otherinf{margin-top: 10px;}
+.fundtop .otherinf p{margin: 0;height: 30px;line-height: 30px;}
+.fundtop .otherinf p span{width: 185px;display: inline-block;text-indent:30px; }
+
+.fundleft,.fundright{border: 1px solid #e9e9e9;margin-top: 20px;background: #fff;min-height: 325px;}
+.fundleft>div,.fundright>div{padding: 10px;}
+.fundleft{width: 748px;float: left;}
+.fundright{width: 438px;float: right;}
+
+.fundltab{height: 43px;border-bottom: 1px solid #e9e9e9;}
+.fundltab a{height: 30px;line-height: 30px;width: 78px;text-align: center;border: 2px solid #fff;display: block;margin-right: 20px;float: left;}
+.fundltab a.active,.fundltab a:hover{border: 2px solid #c7c5c5;border-radius: 4px;background: #f5f5f5;}
+.fundlranktt{width: 385px;float: right;height: 43px;line-height: 36px;}
+.fundleft .cont{width: 335px;float: left;height: 260px;margin-top: 40px;height: 200px;}
+.fundlranklist{width: 380px;float: right;margin-top: 40px;}
+.fundlranklist li{height: 38px;line-height: 38px;padding: 0 20px 0 40px;}
+.fundlranklist .odd{background: #f5f5f5;}
+.fundlranklist em{float: right;}
+
+.fundright .fundrtab a{width: 98px;height: 36px;line-height: 36px; text-align: left;display:block;float: left;}
+.fundright .fundrtab .active,.fundright .fundrtab a:hover{color: #ff722c;}
+.fundright .cont,.fundleft .cont{display: none;}
+.fundright .publicmsg,.fundleft .picprice{display: block;}
+
+.uc_fundtop .rank{/* border-right: 1px solid #e9e9e9; */padding-top: 15px;*clear:both;}
+.uc_fundtop .rank span{border-right: 1px solid #e9e9e9;border-bottom: 1px solid #e9e9e9;width: 136px; display: block;float: left;text-align: center;}
+.uc_fundtop .rank i,.uc_fundtop .rank em{display: block;margin-bottom: 15px;}
+.ranks1{border-left: 1px solid #e9e9e9;}
+.uc_fundtop .rank .up{color:#42c522;}
+.uc_fundtop .rank .down{color:#f00;}
+.uc_fundtop .rank .all{color:#ff722c;}
+.rank em{font-size:25px;}
+.ranks4 em{ color: #ff722c;}
+
+.uc_fundtop{margin: 15px 0;padding: 0;border: 0;}
+.uc_fundtop .info{background: #fff;border: 1px solid #e9e9e9;padding: 12px;}
+.uc_fundtop .fundleft{width: 415px;}
+
+.group_jlist th{text-align: center;}
+.group_jlist td{line-height: 30px;}
+.group_jlist .edt {text-align: center;}
+.group_jlist .edt a{margin-right: 5px;}
+
+.fund_lh{}
+.fund_lh em{display: inline-block;padding: 0 5px;}
+.fund_lh .time{float: right;}
+.fund_lh .name{color: #ff7e00;}
 
 
 

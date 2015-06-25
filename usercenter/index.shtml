@@ -280,14 +280,223 @@
 				<li class="last"><a href="#"><i class="icf">&#xe611;</i>队员管理</a></li>
 			</ul>
 
+			<div class="uc_cont span9" id="con_groupfund">
+
+				<h3>战队基金管理</h3>
+				<div class="fundtop uc_fundtop clearfix">
+					<div class="info">
+						<div class="img"><img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt=""><em class="">英雄联盟</em></div>
+						<div class="mains">
+							<p class="msg">这里是战队描述，巴黎警方的快速反击的开始了大幅加快,这里是战队描述，巴黎警方的快速反击的开始了大幅加快这里是战队描述，巴黎警方的快速反击的开始了大幅加快,这里是战队描述，巴黎警方的快速反击的开始了大幅加快</p>
+							<div class="rank clearfix">
+								<span class="ranks1"><i>投资者收益</i><em>+5.0%</em></span>
+								<span class="ranks2"><i>最新市价</i><em>798</em></span>
+								<span class="ranks3"><i>粉丝数量</i><em>12345678</em></span>
+								<span class="ranks4"><i>市值</i><em>500</em></span>
+							</div>
+						</div>	
+					</div>
+					<div class="fundleft">
+						<div class="fundleftmain">
+						zuo
+						</div>
+					</div>
+					<div class="fundright">
+						<div class="fundrightmain">
+							<div class="fundrtab clearfix">
+								<a class="active" href="javascript:void(0);">公告信息</a>
+								<a href="javascript:void(0);" class="">现役队员</a>
+							</div>
+							<div class="cont publicmsg" style="display: block;">
+								这里是公告
+							</div>
+							<div class="cont userlist" style="display: none;">
+								这里是队员列表
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<h4>基金列表</h4>
+				<table class="table table-bordered table-hover group_jlist">
+					<thead>
+						<th>基金代码</th>
+						<th>股份总量</th>
+						<th>已发行</th>
+						<th>可发行</th>
+						<th>交易总额</th>
+						<th>可提现</th>
+						<th>操作</th>
+						
+					</thead>
+					<tbody>
+						<tr>
+							<td>123456</td>
+							<td>这里是战队名称</td>
+							<td class="up">卖出</td>
+							<td>35</td>
+							<td>10000</td>
+							<td>交易中</td>
+							<td class="edt"><a href="javascript:void(0);" class="btn">提现</a><a href="javascript:void(0);" class="btn">增发</a><a href="javascript:void(0);" class="btn">撤单</a></td>
+						</tr>
+						<tr>
+							<td>123456</td>
+							<td>这里是战队名称</td>
+							<td class="up">卖出</td>
+							<td>35</td>
+							<td>10000</td>
+							<td>交易中</td>
+							<td class="edt"><a href="javascript:void(0);" class="btn">提现</a><a href="javascript:void(0);" class="btn">增发</a><a href="javascript:void(0);" class="btn">撤单</a></td>
+						</tr>
+						<tr>
+							<td>123456</td>
+							<td>这里是战队名称</td>
+							<td class="up">卖出</td>
+							<td>35</td>
+							<td>10000</td>
+							<td>交易中</td>
+							<td class="edt"><a href="javascript:void(0);" class="btn">提现</a><a href="javascript:void(0);" class="btn">增发</a><a href="javascript:void(0);" class="btn">撤单</a></td>
+						</tr>
+						<tr>
+							<td>123456</td>
+							<td>这里是战队名称</td>
+							<td class="up">卖出</td>
+							<td>35</td>
+							<td>10000</td>
+							<td>交易中</td>
+							<td class="edt"><a href="javascript:void(0);" class="btn">提现</a><a href="javascript:void(0);" class="btn">增发</a><a href="javascript:void(0);" class="btn">撤单</a></td>
+						</tr>
+						<tr>
+							<td>123456</td>
+							<td>这里是战队名称</td>
+							<td class="up">卖出</td>
+							<td>35</td>
+							<td>10000</td>
+							<td>交易中</td>
+							<td class="edt"><a href="javascript:void(0);" class="btn">提现</a><a href="javascript:void(0);" class="btn">增发</a><a href="javascript:void(0);" class="btn">撤单</a></td>
+						</tr>
+						<tr>
+							<td>123456</td>
+							<td>这里是战队名称</td>
+							<td class="up">卖出</td>
+							<td>35</td>
+							<td>10000</td>
+							<td>交易中</td>
+							<td class="edt"><a href="javascript:void(0);" class="btn">提现</a><a href="javascript:void(0);" class="btn">增发</a><a href="javascript:void(0);" class="btn">撤单</a></td>
+						</tr>
+					</tbody>
+				</table>
+
+				<h4>战队基金流水</h4>
+				<table class="table fund_lh">
+					<tbody>
+						<tr>
+							<td><span class="time">2015-12-02 11:12:13</span>队长 <em class="name">队长名称</em> 提取了 <em class="num">123456</em> 竞技豆 </td>
+						</tr>
+						<tr>
+							<td><span class="time">2015-12-02 11:12:13</span>队长 <em class="name">队长名称</em> 提取了 <em class="num">123456</em> 竞技豆 </td>
+						</tr>
+						<tr>
+							<td><span class="time">2015-12-02 11:12:13</span>队长 <em class="name">队长名称</em> 提取了 <em class="num">123456</em> 竞技豆 </td>
+						</tr>
+						<tr>
+							<td><span class="time">2015-12-02 11:12:13</span>队长 <em class="name">队长名称</em> 提取了 <em class="num">123456</em> 竞技豆 </td>
+						</tr>
+						<tr>
+							<td><span class="time">2015-12-02 11:12:13</span>队长 <em class="name">队长名称</em> 提取了 <em class="num">123456</em> 竞技豆 </td>
+						</tr>
+						<tr>
+							<td><span class="time">2015-12-02 11:12:13</span>队长 <em class="name">队长名称</em> 提取了 <em class="num">123456</em> 竞技豆 </td>
+						</tr>
+					</tbody>
+				</table>
+			
+				
+
+				<div class="pagination pagination-centered">
+	              <ul>
+	                <li class="disabled"><a href="#">«</a></li>
+	                <li class="active"><a href="#">1</a></li>
+	                <li><a href="#">2</a></li>
+	                <li><a href="#">3</a></li>
+	                <li><a href="#">4</a></li>
+	                <li><a href="#">5</a></li>
+	                <li><a href="#">»</a></li>
+	             </ul>
+	            </div>
+
+			</div>
+		</div>
+
+		<div class="nwrap clearfix Uc">
+			<ul class="uc_nav nav nav-list span2">
+				<li class="title"><a href="/" target="_blank"><i class="icf">&#xe60b;</i>首页</a> </li>
+				<li class="title">个人信息</li> 
+				<li class="hover"><a href="#"><i class="icf">&#xe60c;</i>资料管理</a></li>
+				<li><a href="#"><i class="icf">&#xe60f;</i>消息通知</a></li>
+				<li><a href="#"><i class="icf">&#xe60e;</i>财务信息</a></li>
+				<li><a href="#"><i class="icf">&#xe60a;</i>红包信息</a></li> 
+				<li class="title">业务信息</li> 
+				<li><a href="#"><i class="icf">&#xe610;</i>兑换记录</a></li>
+				<li class="title">战队信息</li> 
+				<li><a href="#"><i class="icf">&#xe60d;</i>战队资料</a></li>
+				<li><a href="#"><i class="icf">&#xe609;</i>战队账户</a></li>
+				<li><a href="#"><i class="icf">&#xe608;</i>赛事列表</a></li>
+				<li class="last"><a href="#"><i class="icf">&#xe611;</i>队员管理</a></li>
+			</ul>
+
 			<div class="uc_cont span9" id="con_fund">
 
-				<h3>基金管理</h3>
+				<h3>我的资产</h3>
+				<h4 class="title4">资产概览</h4>
+				<table class="table table_my table-bordered">
+					<thead>
+						<th>总资产</th>
+						<th>总市值</th>
+						<th>总成本</th>
+						<th>总收益</th>
+						<th>盈亏率</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>123456</td>
+							<td>1564568456</td>
+							<td >4594456412</td>
+							<td>845641</td>
+							<td class="up">+54%</td>
+						</tr>
+					</tbody>
+				</table>
+				<h4>交易记录</h4>
+				<table class="table fund_lh">
+					<tbody>
+						<tr>
+							<td><span class="time">2015-12-02 11:12:13</span>队长 <em class="name">队长名称</em> 提取了 <em class="num">123456</em> 竞技豆 </td>
+						</tr>
+						<tr>
+							<td><span class="time">2015-12-02 11:12:13</span>队长 <em class="name">队长名称</em> 提取了 <em class="num">123456</em> 竞技豆 </td>
+						</tr>
+						<tr>
+							<td><span class="time">2015-12-02 11:12:13</span>队长 <em class="name">队长名称</em> 提取了 <em class="num">123456</em> 竞技豆 </td>
+						</tr>
+						<tr>
+							<td><span class="time">2015-12-02 11:12:13</span>队长 <em class="name">队长名称</em> 提取了 <em class="num">123456</em> 竞技豆 </td>
+						</tr>
+						<tr>
+							<td><span class="time">2015-12-02 11:12:13</span>队长 <em class="name">队长名称</em> 提取了 <em class="num">123456</em> 竞技豆 </td>
+						</tr>
+						<tr>
+							<td><span class="time">2015-12-02 11:12:13</span>队长 <em class="name">队长名称</em> 提取了 <em class="num">123456</em> 竞技豆 </td>
+						</tr>
+					</tbody>
+				</table>
+				
+
 				<p class="table_top table_fundtab table_tab">
 					<a class="active" href="javascript:void(0);">持有基金</a>
 					<a href="javascript:void(0);">交易大厅</a>
 				</p>
-				<table class="table table_fund1 table-hover">
+				<table class="table table_fund table_fund1 table-hover">
 					<thead>
 						<th>基金代码</th>
 						<th>战队名称</th>
@@ -368,7 +577,7 @@
 						</tr>
 					</tbody>
 				</table>
-				<table class="table table_fund2 table-hover">
+				<table class="table table_fund table_fund2 table-hover">
 					<thead>
 						<th>基金代码</th>
 						<th>战队名称</th>
@@ -449,10 +658,7 @@
 						</tr>
 					</tbody>
 				</table>
-				<p class="table_handle">
-					<button type="submit" class="btn ">全选</button>
-					<button type="submit" class="btn ">删除</button>
-				</p>
+				
 
 				<div class="pagination pagination-centered">
 	              <ul>
@@ -483,7 +689,7 @@
 		    })
 		}
 	$(document).ready(function() {
-		tabInit($("#con_fund .table_tab a"),$("#con_fund .table"));
+		tabInit($("#con_fund .table_tab a"),$("#con_fund .table_fund"));
 	});
 	</script>
 </body>
