@@ -45,7 +45,7 @@ var fixChat = {
 				fixChat.chatDivShowed = false;
 				fixChat.hasGotMsg = false;
 			}else{
-				$('#chatVideo').show().animate({"right":"50px","opacity":1},200);
+				$('#chatVideo').show().animate({"right":"70px","opacity":1},200);
 				fixChat.chatDivShowed = true;
 				clearInterval(fixChat.onlineMsg_h);
 				$(this).removeClass('active');

@@ -1,0 +1,10 @@
+[
+{url:'http://bbs.haomm.com/thread-5604-1-1.html',img: '/PerRes/cont/ad/big/weekstar.jpg',smallimg:'/PerRes/cont/ad/ico/weekstar.jpg',title : '文本1',content:'',target:'_blank',bg_color:"#000" },
+{url:'http://bbs.haomm.com/thread-5622-1-1.html',img: '/PerRes/cont/ad/big/yxzm.jpg',smallimg:'/PerRes/cont/ad/ico/yxzm.jpg',title : '游戏',content:'',target:'_blank',bg_color:"#fff" },
+{url:'/activity/clear2014/index.html',img: '/PerRes/cont/ad/big/22.png',smallimg:'/PerRes/cont/ad/ico/22.png',title : '文本3',content:'创建绿色平台，释放青春能量',target:'_blank',bg_color:"#fff" },
+{url:'/activity/lucky/',img: '/PerRes/cont/ad/big/jifen.jpg',smallimg:'/PerRes/cont/ad/ico/jifen.jpg',title : '积分商城',content:' ',target:'_blank',bg_color:"#000" },
+{url:'http://bbs.haomm.com/thread-5604-1-1.html',img: '/PerRes/cont/ad/big/weekstar.jpg',smallimg:'/PerRes/cont/ad/ico/weekstar.jpg',title : '文本4',content:'',target:'_blank',bg_color:"#000" },
+{url:'http://bbs.haomm.com/thread-5622-1-1.html',img: '/PerRes/cont/ad/big/yxzm.jpg',smallimg:'/PerRes/cont/ad/ico/yxzm.jpg',title : '游戏2',content:'',target:'_blank',bg_color:"#fff" },
+{url:'/activity/clear2014/index.html',img: '/PerRes/cont/ad/big/22.png',smallimg:'/PerRes/cont/ad/ico/22.png',title : '文本6',content:'创建绿色平台，释放青春能量',target:'_blank',bg_color:"#fff" },
+{url:'/activity/lucky/',img: '/PerRes/cont/ad/big/jifen.jpg',smallimg:'/PerRes/cont/ad/ico/jifen.jpg',title : '积分商城',content:' ',target:'_blank',bg_color:"#000" }
+]

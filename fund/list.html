@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>基金列表</title>
+	<link rel="stylesheet" href="/css/fund.css">
+	<script type="text/javascript" src="http://libs.useso.com/js/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/common.js"></script>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="/css/head.css">
+<div class="header">
+	<div class="wrap">
+		<h1 class="h_title">逆战</h1>
+		<a class="h_logo" href="/" target="_blank"><img src="http://7xiwoq.com1.z0.glb.clouddn.com/hd.png" alt=""></a>
+		<ul class="h_nav">
+			<li><a href="/" target="_blank">首页</a></li>
+			<li><a href="/fund/list.html" target="_blank">基金列表</a></li>
+			<li><a href="/fund/info.html" target="_blank">基金详情</a></li>
+			<li><a href="/usercenter/index.html" target="_blank">个人中心</a></li>
+			<li><a href="/sai/index.html" target="_blank">赛事</a></li>
+			<li><a href="/info/index.html" target="_blank">单页</a></li>
+			<li><a href="/teamindex/index.html" target="_blank">战队排名</a></li>
+		</ul>
+		<div class="h_ucenter active">
+			<div class="login_bef" >
+				<a href="" class="log">登录</a>
+				<a href="" class="reg">注册</a>
+			</div>	
+			<div class="login_aft">
+				<img src="http://static.youku.com/user/img/avatar/80/14.jpg" alt="" class="h_anchor">
+				<span class="wel">欢迎访问xxx</span>
+				<div class="h_nameWr" id="h_nameWr">
+					<em class="name">莫莫</em>
+					<div class="panel">
+						<i class="icf"></i>
+						<div class="cons">
+							<div class="infos">
+								<a href="#" title="人名称" class="p_anchor_w" target="_blank"><img src="http://static.youku.com/user/img/avatar/80/14.jpg" alt="" class="p_anchor"></a>
+								<p class="first"><span class="p_bel">隶属：某某大队</span><a href="#" title="人名称" class="p_name" target="_blank">莫莫55015168</a></p>
+								<p class="second"><i class="icf">&#xe606;</i><span class="pb_phone"><a href="#">手机未绑定，去绑定</a><i class="icf">&#xe603;</i></span></p>
+								<p class="third"><a href="" class="go_exp">去兑换</a><span class="exp">财富值：<em id="p_money">123456</em></span></p>
+							</div>
+							<p class="last"><em class="p_fans">粉丝:1234</em><em class="p_rank">排名:1234</em><em class="p_price">市值:123456</em></p>
+							<div class="tabs">
+								<a href="#"><i class="icf">&#xe600;</i><em>战队资料</em></a>
+								<a href="#"><i class="icf">&#xe602;</i><em>个人资料</em></a>
+								<a href="#"><i class="icf">&#xe605;</i><em>财务信息</em></a>
+								<a href="#"><i class="icf">&#xe601;</i><em>兑换记录</em></a>
+							</div>
+							<div class="match_my" id="mathMy">
+								<a class="more" href="">查看更多</a>
+								<h4>我的比赛 </h4>
+
+								<ul class="p_mathlist" id="pMathlist">
+									<li class="even"><a href="#">
+										<span class="link">查看</span>
+										<span class="time">14-02-25</span>
+										<span class="room">名称</span>
+										<span class="game">游戏</span>
+										
+									</a></li>
+									<li class="odd"><a href="#">
+										<span class="link">查看</span>
+										<span class="time">14-02-25</span>
+										<span class="room">名称</span>
+										<span class="game">游戏</span>
+										
+									</a></li>
+									<li class="even"><a href="#">
+										<span class="link">查看</span>
+										<span class="time">14-02-25</span>
+										<span class="room">名称</span>
+										<span class="game">游戏</span>
+										
+									</a></li>
+									<li class="odd"><a href="#">
+										<span class="link">查看</span>
+										<span class="time">14-02-25</span>
+										<span class="room">名称</span>
+										<span class="game">游戏</span>
+										
+									</a></li>
+									<li class="even"><a href="#">
+										<span class="link">查看</span>
+										<span class="time">14-02-25</span>
+										<span class="room">名称</span>
+										<span class="game">游戏</span>
+										
+									</a></li>
+									<li class="odd"><a href="#">
+										<span class="link">查看</span>
+										<span class="time">14-02-25</span>
+										<span class="room">名称</span>
+										<span class="game">游戏</span>
+										
+									</a></li>
+									<li class="even"><a href="#">
+										<span class="link">查看</span>
+										<span class="time">14-02-25</span>
+										<span class="room">名称</span>
+										<span class="game">游戏</span>
+										
+									</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="loading"><span class="ico"></span></div>
+					</div>
+				</div>
+				<a href="" class="logout">退出</a>
+				
+			</div>
+			
+		</div>
+	</div>
+</div>
+	<div class="nwrap clearfix f_fundlist">
+	    <div class="f_fundban">
+	        <img src="/img/jjbanner.jpg" >
+	    </div>
+		<div class="main">
+			<div class="fundlisttop">
+				<div class="fund_search">
+					<p class="fund_allinfo">
+						股东人数：<em>123456人</em>&nbsp;&nbsp;|&nbsp;&nbsp;累计投资：<em>123456</em>&nbsp;&nbsp;|&nbsp;&nbsp;累计收益：<em>123456</em>
+					</p>
+					<form action="" class="fund_searchr">
+						<input type="text" placeholder="请输入查询内容"><button type="submit" class="btn">查询</button>
+					</form>
+					<div class="fund_searchl">
+						<p>类型：<a href="javascript:void(0);">全部</a>
+						<a href="javascript:void(0);" class="active">全部</a>
+						<a href="javascript:void(0);">全部</a>
+						<a href="javascript:void(0);">全部</a>
+						</p>
+						<p>等级：<a href="javascript:void(0);">全部</a>
+						<a href="javascript:void(0);">全部</a>
+						<a href="javascript:void(0);">全部</a>
+						<a href="javascript:void(0);">全部</a>
+						</p>
+					</div>
+					
+				</div>
+				<div class="fund_listtab clearfix">
+					<span class="note">交易单位及额度均已竞技豆结算</span>
+					<a class="active" href="javascript:void(0);">投资列表<em class=""></em></a>
+					<a href="javascript:void(0);">投资列表<em class=""></em></a>
+				</div>
+			</div>
+			<ul class="fundclist" id="f_List_1">
+				<li>
+					<div class="step clearfix">
+						<p class="all">发行总额：<em>123,456,789</em></p>
+						<p class="can">可投金额：<em>5248</em></p>
+						<p class="user">投资人数：<em>12345678人</em></p>
+						<a href="javascript:void(0);" class="action">我要投资</a>
+					</div>
+					<div class="info">
+						<div class="img"><img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt=""><em class="">英雄联盟</em></div>
+						<div class="mains">
+							<p>
+								<span class="uid2">基金代码：123456</span>
+								<span class="name">小当</span>
+								<span class="lvl">当前等级:无畏</span>
+							</p>
+							<p clas="msg_w"><a href="" class="gos">查看详情</a><span class="msg">这里是战队描述，巴黎警方的快速反击的开始了大幅加快</span></p>
+							<div class="rank clearfix">
+								<span class="ranks1"><i>今日收益</i><em>+5.0%</em></span>
+								<span class="ranks2"><i>当前排名</i><em>798</em></span>
+								<span class="ranks3"><i>粉丝数量</i><em>12345678</em></span>
+								<span class="ranks4"><i>基金单价</i><em>500</em></span>
+							</div>
+						</div>
+						
+					</div>
+				</li>
+				<li>
+					<div class="step clearfix">
+						<p class="all">发行总额：<em>123,456,789</em></p>
+						<p class="can">可投金额：<em>5248</em></p>
+						<p class="user">投资人数：<em>12345678人</em></p>
+						<a href="javascript:void(0);" class="action">我要投资</a>
+					</div>
+					<div class="info">
+						<div class="img"><img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt=""><em class="">英雄联盟</em></div>
+						<div class="mains">
+							<p>
+								<span class="uid2">基金代码：123456</span>
+								<span class="name">小当家战队</span>
+								<span class="lvl">当前等级:无畏</span>
+							</p>
+							<p clas="msg_w"><a href="" class="gos">查看详情</a><span class="msg">这里是战队描述，巴黎警方的快速反击的开始了大幅加快</span></p>
+							<div class="rank clearfix">
+								<span class="ranks1"><i>今日收益</i><em>+5.0%</em></span>
+								<span class="ranks2"><i>当前排名</i><em>798</em></span>
+								<span class="ranks3"><i>粉丝数量</i><em>12345678</em></span>
+								<span class="ranks4"><i>基金单价</i><em>500</em></span>
+							</div>
+						</div>
+						
+					</div>
+				</li>
+				<li>
+					<div class="step clearfix">
+						<p class="all">发行总额：<em>123,456,789</em></p>
+						<p class="can">可投金额：<em>5248</em></p>
+						<p class="user">投资人数：<em>12345678人</em></p>
+						<a href="javascript:void(0);" class="action disable">已售罄</a>
+					</div>
+					<div class="info">
+						<div class="img"><img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt=""><em class="">英雄联盟</em></div>
+						<div class="mains">
+							<p>
+								<span class="uid2">基金代码：123456</span>
+								<span class="name">小当家战队</span>
+								<span class="lvl">当前等级:无畏</span>
+							</p>
+							<p clas="msg_w"><a href="" class="gos">查看详情</a><span class="msg">这里是战队描述，巴黎警方的快速反击的开始了大幅加快</span></p>
+							<div class="rank clearfix">
+								<span class="ranks1"><i>今日收益</i><em>+5.0%</em></span>
+								<span class="ranks2"><i>当前排名</i><em>798</em></span>
+								<span class="ranks3"><i>粉丝数量</i><em>12345678</em></span>
+								<span class="ranks4"><i>基金单价</i><em>500</em></span>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="fr">
+			<div class="visitmost">
+				<h3>大家都在参加那些比赛？</h3>
+				<ul>
+					<li><a href="" target="_blank">
+							<img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt=""><div class="info"><em class="name">这里是名称</em><em class="note">这里是描述很长的</em></div>
+						</a></li>
+					<li><a href="" target="_blank">
+							<img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt=""><div class="info"><em class="name">这里是名称</em><em class="note">这里是描述很长的</em></div>
+						</a></li>
+					<li><a href="" target="_blank">
+							<img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt=""><div class="info"><em class="name">这里是名称</em><em class="note">这里是描述很长的</em></div>
+						</a></li>
+				</ul>
+			</div>
+			<div class="fundrank">
+				<h3>基金排行</h3>
+				<ul>
+					<li><a href="">
+							<span class="num">123456竞技豆</span>
+							<em class="eq eqspe"><i class="icf">&#xe61c;</i><b>1</b></em>
+							<span class="name">这里是名称</span>
+							
+						</a></li>
+					<li><a href="">
+							<span class="num">123456竞技豆</span>
+							<em class="eq eqspe"><i class="icf">&#xe61c;</i><b>2</b></em>
+							<span class="name">这里是名称</span>
+							
+						</a></li>
+					<li><a href="">
+							<span class="num">123456竞技豆</span>
+							<em class="eq eqspe"><i class="icf">&#xe61c;</i><b>3</b></em>
+							<span class="name">这里是名称</span>
+							
+						</a></li>
+					<li><a href="">
+							<span class="num">123456竞技豆</span>
+							<em class="eq"><i class="icf">&#xe61c;</i><b>4</b></em>
+							<span class="name">这里是名称</span>
+							
+						</a></li>
+					<li><a href="">
+							<span class="num">123456竞技豆</span>
+							<em class="eq"><i class="icf">&#xe61c;</i><b>5</b></em>
+							<span class="name">这里是名称</span>
+							
+						</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+var fund = {
+	listType:0,
+	pageLoad:true,
+	pages:1,
+	onPage:5,
+	bloc:1,
+	listC:"",
+
+	init:function(){
+		fund.currList =document.getElementById("f_List_1");
+
+		fund.loadList(fund.pages);
+		var fscrolltimer = null;
+		$(window).on("scroll", function() {
+			if (fscrolltimer) {
+				clearTimeout(fscrolltimer)
+			}
+			fscrolltimer = setTimeout(function() {
+				if ($(document).scrollTop() >= $(document).height()-$(window).height()-200 && fund.pageLoad) {
+					fund.pages += 1;
+					fund.loadList(fund.pages);
+				};
+			}, 200);
+		});
+		
+	},
+	loadList:function(pg){
+		//var url = fund.apiUrl + "/Getdynamiclist?type="+fund.listType +"&page="+pg;
+		fund.bloc +=1;
+		var url = "/js/fundlist.txt";
+
+		$.ajax({
+			url: url,
+			type: 'GET'
+		}).always(function() {
+			debug("complete");
+		}).done(function(data) {
+			debug("success");
+
+			try {
+                data = JSON.parse(data);
+            } catch (e) {
+                data = eval(data);
+            }
+			//data = eval(data);
+			if (fund.bloc > 4) {
+				data.length = 2;
+			};
+			if (data.length < fund.onPage || data.length == 0) {
+				fund.pageLoad = false;
+			};
+
+			fund.craeteList(data);
+		}).fail(function() {
+			debug("error");
+			var str = '<li class="no_data">没有数据</li>';
+			fund.currList.innerHTML = str;
+		});
+	},
+	craeteList:function(data){
+		var str = new helper.strBuilder();
+		if (data != "" && data.length > 0) {
+			for (var i = 0; i < data.length; i++) {
+				var dt = data[i];
+
+				str.append('<li>');
+				str.append('	<div class="step clearfix">');
+				str.append('		<p class="all">发行总额：<em>123,456,789</em></p>');
+				str.append('		<p class="can">可投金额：<em>5248</em></p>');
+				str.append('		<p class="user">投资人数：<em>12345678人</em></p>');
+				str.append('		<a href="javascript:void(0);" class="action">我要投资</a>');
+				str.append('	</div>');
+				str.append('	<div class="info">');
+				str.append('		<div class="img"><img src="http://7xiwoq.com1.z0.glb.clouddn.com/3953273590_704e3899d5_m.jpg" alt=""><em class="">英雄联盟</em></div>');
+				str.append('		<div class="mains">');
+				str.append('			<p>');
+				str.append('				<span class="uid2">基金代码：123456</span>');
+				str.append('				<span class="name">小当家战队</span>');
+				str.append('				<span class="lvl">当前等级:无畏</span>');
+				str.append('			</p>');
+				str.append('			<p clas="msg_w"><a href="" class="gos">查看详情</a><span class="msg">这里是战队描述，巴黎警方的快速反击的开始了大幅加快</span></p>');
+				str.append('			<div class="rank clearfix">');
+				str.append('				<span class="ranks1"><i>今日收益</i><em>+5.0%</em></span>');
+				str.append('				<span class="ranks2"><i>当前排名</i><em>798</em></span>');
+				str.append('				<span class="ranks3"><i>粉丝数量</i><em>12345678</em></span>');
+				str.append('				<span class="ranks4"><i>基金单价</i><em>500</em></span>');
+				str.append('			</div>');
+				str.append('		</div>');
+				str.append('		');
+				str.append('	</div>');
+				str.append('</li>');
+
+			}
+			if (fund.pages == 1) {
+				fund.currList.innerHTML = str.toString();
+			}else{
+				var st = fund.currList.innerHTML + str.toString();
+				fund.currList.innerHTML = st;
+
+			}
+
+		}else{
+			$('<li class="no_data">没有数据了</li>').appendTo(fund.currList)
+		}		
+	}
+}
+
+
+$(document).ready(function() {
+		fund.init();
+});		
+	</script>
+</body>
+</html>

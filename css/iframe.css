@@ -1,0 +1,82 @@
+
+legend{display: none;}
+em{font-style: normal;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+* html .clearfix             { zoom: 1; }
+*:first-child+html .clearfix { zoom: 1; }
+.clear{clear: both;}
+.tgray{color: #ccc;}
+.torange,a{color: #ff7e00;}
+
+a:hover, a:focus{text-decoration: none;color:#ff7e00; }
+
+
+.tag{width:auto;height:auto;padding:2px;-moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; z-index:2; }
+.bg-yellow{color:#fff;background-color:#f60;}
+.bg-blue{color:#fff;background-color:#3597fa;}
+.bg-ta{color:#fff;background-color:#87ca01;}
+.bg-te{color:#fff;background-color:#cecd01;}
+.bg-td{color:#fff;background-color:#333333;}
+.bg-green{color:#22cc77;background-color:#eeffdd;}
+.bg-red{color:#FFF;background-color:#ee3333;}
+.bg-red-light{color:#ee3333;background-color:#ffeeee;}
+
+
+.ifCon{border: 1px solid #dedede;padding: 20px 12px 12px;margin: 5px;}
+/* 赛点查询 */
+
+.barSearch{background: #fafefe;}
+.s_address{float: left;}
+.s_name{float: right;}
+
+.barSearch select{width:100px; }
+.barSearch button{vertical-align: top;}
+.barSearch table{background: #fff;}
+.barSearch th,.barSearch td{text-align: center;}
+.barSearch th{background: #f6f6f6;}
+.barSearch .s_name_input{width: 150px;}
+.barSearch .nodata{text-align: center;padding: 15px;}
+
+/* 战队pk */
+
+.actPk {text-align: center;  height: 430px;}
+.teaminfo{margin: 35px 50px 20px; text-align: left; position: relative;padding-left: 55px;}
+.teaminfo p{line-height: 25px;margin: 0;display: inline-block;*zoom:1;*display:inline;overflow: hidden;  text-overflow: ellipsis;white-space: nowrap;vertical-align: top;}
+.teaminfo .anchor{width: 45px;height: 45px;padding: 1px;border: 1px solid #dedede;float: left;margin-left: -55px;position:relative; zoom:1;*position: absolute;*left: 0px;*top: 0px;*margin-left: 0;}
+.teaminfo .name{position: absolute;left: 0px;top: -30px;color: #ff7e00;font-size: 14px;}
+.teaminfo .are{color: #969696;}
+.teaminfo .are2{color: #ff7e00;}
+
+.teaminfo .it1{width: 115px;}
+.teaminfo .it2{width: 150px;}
+.teaminfo .it3{width: 115px;}
+.teaminfo .it4{width: auto;}
+.actPk .note1,.actPk .note2,.actPk .note3{text-align: center;line-height: 37px;color: #ff7e00;}
+.actPk .note1{background:#ffffe5;border: 1px solid #dedede;margin: 25px auto;width: 435px; }
+.actPk .note2 a{display: inline-block;margin: 0 15px;}
+.actPk .lab{color: #333;}
+.actPk .note3{color: #969696;}
+.actPk .btn-large{margin: 10px auto 8px;padding: 11px 40px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

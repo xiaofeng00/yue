@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>活动0719</title>
+	<style type="text/css">
+		*{padding: 0;margin: 0;}
+		body{  font: 14px/1.6 Microsoft YaHei,Verdana,Arial,Helvetica,sans-serif,Simsun;background: #fcc802;}
+		img{display: block;}
+		a{text-decoration: none;}
+		textarea{  resize: none;}
+		.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+		* html .clearfix             { zoom: 1; }
+		*:first-child+html .clearfix { zoom: 1; }
+		.w970{width:970px;margin: 0 auto; }
+		.w1100{width:1100px;margin: 0 auto;}
+		.swrap{width:1400px;margin: 0 auto;}
+		.step1{background: url(img/pagebg.jpg) center top no-repeat;}
+		.btn-link{display:inline-block;width:150px;border:2px solid #d1380c;color:#d1380c;font-weight:bold;font-size:18px;border-radius:20px;background:none;line-height:1.1;padding:8px 0;text-align: center;margin-top: 20px;}
+		.btn-link:hover,
+		.btn-link:active,
+		.btn-link:focus{background:#e24620;color:#fff;}
+
+		h2{  font-weight: normal;color: #e24620;font-size: 30px;}
+  		
+  		.h2,.h3{color: #814f09;  line-height: 2;padding-left: 20px;font-size: 16px;}
+  		.con h3{background: url(img/icon-tit.png) no-repeat left 3px;padding-left: 20px;color: #e24620;margin: 30px 0 10px;font-size: 18px;}
+  		.img{text-align: center;}
+  		.sw1 .img{float: left;margin-right: 50px;}
+  		.sw2 .img{float: right;}
+  		.sw1,.sw2{padding-top: 80px;}
+  		.sw2{padding-bottom: 100px;}
+		.con{float: left;}
+		.notic{display: none;padding: 5px;border: 1px solid #dedede;margin: 5px;}
+		.notic p{height: 30px;line-height: 24px;}
+		.notic textarea{width: 300px;display: block;padding: 5px;}
+		.notic button{  margin: 10px auto 5px;display: inherit;cursor: pointer;}
+
+	</style>
+	<link type="text/css" rel="stylesheet" href="/js/layer/skin/layer.css">
+	<script type="text/javascript" src="http://libs.useso.com/js/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/layer/layer.js"></script>
+</head>
+<body>
+	<div class="step1">
+		<div class="w970 had1"><img src="img/hda2_1.jpg" alt=""></div>
+		<div class="w970 had2"><img src="img/hda2_2.jpg" alt=""></div>
+		<div class="w970 had3"><img src="img/hda2_3.jpg" alt=""></div>
+	</div>
+	<div class="step2">
+
+			<div class="w1100 sw1 clearfix">
+				<div class="img"><img src="img/001.jpg" alt=""><a class="btn-link" id="link1" href="javascript:void(0);">立即投资</a></div>
+				<div class="con">
+					<h2>活动一</h2>
+					<span class="h2">复制推广链接，进行平台推广，每注册并绑定手机用户即可获得20个竞技豆;<br>推荐用户购买战队基金，即可获得投资额度30%佣金</span>
+					<h3>活动说明</h3>
+					<p class="h3">
+						1、减肥的卡萨了房间的首付款当上了<br>
+						2、减肥的卡萨了房间的首付款当上了房顶上<br>
+						3、减肥的卡萨了房间的首付款当上了房顶上忿忿地说<br>
+						4、减肥的卡萨了房间的首付款当上了撒啊
+					</p>
+				</div>
+			</div>
+			<div class="w1100 sw2 clearfix">
+				<div class="img"><img src="img/001.jpg" alt=""><a class="btn-link" id="link2" href="javascript:void(0);">立即投资</a></div>
+				<div class="con">
+					<h2>活动二</h2>
+					<span class="h2">复制推广链接，进行平台推广，每注册并绑定手机用户即可获得20个竞技豆;<br>推荐用户购买战队基金，即可获得投资额度30%佣金</span>
+					<h3>活动说明</h3>
+					<p class="h3">
+						1、减肥的卡萨了房间的首付款当上了<br>
+						2、减肥的卡萨了房间的首付款当上了房顶上<br>
+						3、减肥的卡萨了房间的首付款当上了房顶上忿忿地说<br>
+						4、减肥的卡萨了房间的首付款当上了撒啊
+					</p>
+				</div>
+			</div>
+			<div class="notic" id="notic">
+				<p>复制以下内容进行推广</p>
+				<textarea name="" cols="30" rows="10" id="fe_text" readonly="readonly">这里是推广链接的地址但是范德萨发的萨芬</textarea>
+				<button id="d_clip_button" class="my_clip_button" data-clipboard-target="fe_text"><b>复制到剪贴板</b></button>
+			</div>
+
+	</div>
+	<script type="text/javascript" src="ZeroClipboard.js"></script>
+
+	<script type="text/javascript">
+		// 定义一个新的复制对象
+		var clip = new ZeroClipboard( document.getElementById("d_clip_button"), {
+		  moviePath: "ZeroClipboard.swf"
+		} );
+
+		// 复制内容到剪贴板成功后的操作
+		clip.on( 'complete', function(client, args) {
+		   //alert("复制成功，复制内容为："+ args.text);
+		   layer.msg('复制成功！',{time: 1000});
+		} );
+		$(document).ready(function() {
+			$("#link1").on('click', function(event) {
+				event.preventDefault();
+				layer.open({
+				    type: 1,
+				    //skin: 'layui-layer-rim',
+				    title: '点击下面按钮复制',
+				    shade: false,
+				    content: $('#notic'), //捕获的元素
+				    cancel: function(index){}
+				});
+			});
+		});
+	</script>
+	
+</body>
+</html>

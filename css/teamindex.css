@@ -1,0 +1,107 @@
+/* 
+
+border #e9e9e9;
+hover  #ff722c
+green  #42c522
+
+ */
+
+body{background: #f6f6f6;color: #535353;font-size: 14px;  font-family: '微软雅黑','Helvetica Neue', "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif;}
+a{color: #535353;}
+a:hover, a:focus{text-decoration: none;}
+em{font-style:normal;}
+.up{color:#42c522;}
+.down{color:#f00;}
+.torange{color: #ff7e00;}
+
+/* 按钮和输入框 */
+.btn {display: inline-block;*display: inline;padding: 4px 12px;margin-bottom: 0;*margin-left: .3em;font-size: 14px;line-height: 20px;color: #333;text-align: center;text-shadow: 0 1px 1px rgba(255,255,255,0.75);vertical-align: middle;cursor: pointer;background-color: #f5f5f5;*background-color: #e6e6e6;background-image: -moz-linear-gradient(top,#fff,#e6e6e6);background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);background-image: -o-linear-gradient(top,#fff,#e6e6e6);background-image: linear-gradient(to bottom,#fff,#e6e6e6);background-repeat: repeat-x;border: 1px solid #ccc;*border: 0;border-color: #e6e6e6 #e6e6e6 #bfbfbf;border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);border-bottom-color: #b3b3b3;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);*zoom:1;-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05)}
+.btn:hover,.btn:focus,.btn:active,.btn.active,.btn.disabled,.btn[disabled] {color: #333;background-color: #e6e6e6;*background-color: #d9d9d9}
+.btn:active,.btn.active {background-color: #ccc \9}
+.btn:first-child {*margin-left: 0}
+.btn:hover,.btn:focus {color: #333;text-decoration: none;background-position: 0 -15px;-webkit-transition: background-position .1s linear;-moz-transition: background-position .1s linear;-o-transition: background-position .1s linear;transition: background-position .1s linear}
+.btn:focus {outline: thin dotted #333;outline: 5px auto -webkit-focus-ring-color;outline-offset: -2px}
+.btn.active,.btn:active {background-image: none;outline: 0;-webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);-moz-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05)}
+.btn.disabled,.btn[disabled] {cursor: default;background-image: none;opacity: .65;filter: alpha(opacity=65);-webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none}
+.btn-red{color:white;text-shadow:0 -1px 0 rgba(0,0,0,0.25);background-color:#fe954f;background-image:-webkit-gradient(linear,left top,left bottom,from(#f60),to(#fe954f));background-image:-webkit-linear-gradient(top,#f60,#fe954f);background-image:-moz-linear-gradient(top,#f60,#fe954f);background-image:-ms-linear-gradient(top,#f60,#fe954f);background-image:-o-linear-gradient(top,#f60,#fe954f);background-image:linear-gradient(top,#f60,#fe954f);border-color:#f60 #f60 #fe954f;border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25)}
+.btn-red:hover,.btn-red:active,.btn-red.active,.btn-red.disabled,.btn-red[disabled]{color:white;background-color:#fe954f;*background-color:#fe954f}
+
+select,textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input {display: inline-block;height: 20px;padding: 4px 6px;margin-bottom: 10px;font-size: 14px;line-height: 20px;color: #555;vertical-align: middle;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px}
+textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input {background-color: #fff;border: 1px solid #ccc;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);-webkit-transition: border linear .2s,box-shadow linear .2s;-moz-transition: border linear .2s,box-shadow linear .2s;-o-transition: border linear .2s,box-shadow linear .2s;transition: border linear .2s,box-shadow linear .2s}  
+textarea:focus,input[type="text"]:focus,input[type="password"]:focus,input[type="datetime"]:focus,input[type="datetime-local"]:focus,input[type="date"]:focus,input[type="month"]:focus,input[type="time"]:focus,input[type="week"]:focus,input[type="number"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="color"]:focus,.uneditable-input:focus {border-color: rgba(82,168,236,0.8);outline: 0;outline: thin dotted \9;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6)}  
+
+.tag{width:auto;height:auto;padding:2px;-moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; z-index:2; }
+.bg-yellow {background-color: #f60;color: #fff;}
+.bg-blue {background-color: #3597fa;color: #fff;}
+.bg-ta {background-color: #87ca01;color: #fff;}
+.bg-te {background-color: #cecd01;color: #fff;}
+.bg-td {background-color: #333333;color: #fff;}
+.bg-green {background-color: #eeffdd;color: #22cc77;}
+.bg-red {background-color: #ee3333;color: #fff;}
+.bg-red-light {background-color: #ffeeee;color: #ee3333;}  
+
+.body{background: #f6f6f6;}
+.f_teamindex{padding: 15px;border: 1px solid #dedede;background: #fff;margin-top: 20px;}
+.team_searchr{float: right;margin-top: 15px;margin-right: 20px;}
+.team_searchr button{vertical-align: top;margin-left: 15px;}
+.team_searchl{float: left;padding-left: 70px;}
+.team_searchl dl{position: relative;}
+.team_searchl dt{position: absolute;left: -50px;top: 4px;}
+.team_searchl dd{float: left;}
+.team_searchl dd a{  margin-right: 10px;border-radius: 3px;height: 27px;line-height: 27px;display: inline-block;padding: 0 10px;}
+.team_searchl a:hover{background: #f7f7f7;}
+.team_searchl a.active,.team_searchl a.active:hover{background: #ff7e00;color: #fff;}
+
+.teamindex_clist{clear: both;}
+.teamindex_clist li{}
+.teamindex_clist li{margin-left:15px;position: relative; margin-top:30px;_display: inline;text-decoration:none;color:#000;float:left;width:320px;height:197px;padding:23px 20px 20px 20px;border-radius:2px;border:1px solid #D0D0D0;-webkit-transition:box-shadow .1s ease-in 0s;-o-transition:box-shadow .1s ease-in 0s;transition:box-shadow .1s ease-in 0s;}
+.teamindex_clist li:hover{border-top: 4px solid #ff7e00;height:197px;box-shadow: 1px 1px 10px #CFCFCF;padding-top: 20px;}
+.teamindex_clist li>.clear{border-top: 1px solid #dedede;}
+
+.teamindex_clist .anchor{float:left;position:relative;border-radius:2px;overflow:hidden;margin-bottom:10px;width:110px;height: 110px;}
+.teamindex_clist .anchor img{width:110px;height:auto}
+.teamindex_clist .anchor .country{width:35px;height:24px;position:absolute;left:1px;top:1px;}
+.teamindex_clist .anchor .country img{width:35px;height:24px;}
+
+.teamindex_clist .info2{  overflow: hidden;padding:0 0 5px 10px;line-height: 2em;}
+.teamindex_clist .info2 h2{font-size: 16px;font-weight: normal;color:#ff7e00; }
+.teamindex_clist .info2 p span{display: inline-block;width: 50%;white-space: nowrap;text-overflow:ellipsis;}
+.teamindex_clist .info2 .tag{height: 22px; line-height: 22px;padding: 0 5px;}
+.teamindex_clist .info2 .tags{position: absolute;right: 15px;top: 26px;}
+
+
+.teamindex_clist .info3{float: left;width: 180px;line-height: 2em;margin-top: 5px;}
+.teamindex_clist .info3 i,.teamindex_clist .info3 em,.teamindex_clist .info3 span{display: inline-block;width: 30px;}
+.teamindex_clist .info3 em{width: 80px;}
+.teamindex_clist .info3 span{float: right;}
+.teamindex_clist .act{float: right;}
+.teamindex_clist .act a{margin-left: 6px;margin-top: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

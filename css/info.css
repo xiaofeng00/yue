@@ -1,0 +1,169 @@
+/* 
+
+border #e9e9e9;
+hover  #ff722c
+green  #42c522
+
+ */
+
+body{background: #fff;color: #535353;font-size: 14px;  font-family: '微软雅黑','Helvetica Neue', "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif;}
+a{color: #535353;}
+a:hover, a:focus{text-decoration: none;}
+em{font-style:normal;}
+img{display: block;}
+.tc{text-align: center;}
+
+.up{color:#42c522;}
+.down{color:#f00;}
+.nwrap{margin: 0 auto;width: 1200px;}
+.torange{color: #ff722c;}
+
+.info_banner{width: 100%;height:320px;background: #ccc;text-align: center;background: url(/img/ban_info.jpg) center top no-repeat; }
+.info_banner img{margin: 0 auto;height: 100%;width: 100%;display: none;}
+.page_tab{width: 100%;margin-top: -50px;}
+.page_tab li{float: left;}
+
+.page_tab a{background: #fafafa;border: 1px solid #dedede;display: block;font-size: 18px;position: relative;text-align: center;width: 298px;height: 48px;line-height: 48px;}
+.page_tab .active a{border-top: 3px solid #ff722c;top: -1px;border-bottom: 0;}
+
+.page_con{display: none;}
+.page_con1{display: block;}
+
+.part2,.part3{position: relative;}
+
+.infl{float: left;}
+.infr{float: right;}
+.infr .log{float: right;}
+.stitle{color: #959595;font-size: 12px;display: block;text-align: center;}
+.btno{display: inline-block;padding: 0 30px;height:50px;line-height: 50px;text-align: center;color: #fff;border-radius: 5px;background: #ff722c; }
+.icodow{position: absolute;left: 50%;top: 0px;width: 0px;height: 0px;border-width: 15px;border-color:#fff transparent transparent  transparent;border-style: solid;  margin-left: -15px;}
+.icodow2{position: absolute;left: 50%;margin-left: -8px; bottom: -16px;width: 0px;height: 0px;border-width: 8px;border-color:#ff722c transparent transparent  transparent;border-style: solid;}
+.h2{font-size: 18px;text-align: center;height: 30px;line-height: 30px;padding-top: 40px;  padding-bottom: 30px;}
+.tc{padding: 50px 0 25px;}
+.icorig{position: absolute;right:-20px; top: 45px;width: 0px;height: 0px;border-width: 10px;border-color: transparent transparent  transparent #65b2ea;border-style: solid;}
+
+.part3 .icodow{border-color:#f5f5f5 transparent transparent  transparent }
+
+
+/* 左侧介绍 */
+.page_con .infl{width: 540px;padding: 0 30px;margin-top: 40px; }
+.page_con .infr{width: 560px;margin-top: 40px;}
+.page_con h1{font-size: 30px;font-weight: normal;text-align: center;}
+.page_con .infl p{font-size: 18px;line-height: 1.8em;margin-top: 15px;}
+.page_con .infl .stitle{height: 50px;line-height: 50px;margin-bottom: 20px;}
+.page_con .infl .tc{margin-top: 30px;}
+.page_con .infl .tc a{margin: 0 20px;}
+
+/* 介绍 */
+.summary{}
+.summary span{width: 160px;background: #f8f8f8;margin-left: 10px; height: 110px;border-radius: 5px;  margin-right: 10px;text-align: left;display: block;float: right;}
+.summary i{text-align: left;padding-left: 15px;margin: 15px 0 15px 0;}
+.summary em{color: #ff722c;font-size: 27px;padding-left: 15px;display: block;}
+
+/* 右侧图片墙 */
+.photobar{padding-top: 15px;}
+.photobar img{margin: 0 8px 8px 0;}
+.photobar span{width: 176px;float: right;}
+.photobar .em{width: 168px;height: 80px;}
+.photobar .es{width: 80px;height: 80px;float: left;}
+.photobar .eb{width: 168px;height: 168px;}
+.photobar .ecl{margin-right: 0;}
+
+.part2{clear: both;background: #f5f5f5;}
+.page_con1 .part2{margin-top: 80px;}
+.page_con2 .part2{margin-top: 50px;padding-bottom: 50px;}
+.page_con2 .part2 .contab{position: relative;top: -100px;padding-top: 0;padding-bottom: 0;}
+.page_con2 .stepcon2 .part2{margin-top: 0;}
+
+/* 网吧列表 */
+.barlist li{float: left;width: 25%;height: 60px; position: relative;margin-top: 35px;}
+.barlist li img{width: 100px;height: 50px;padding: 2px;border: 1px solid #dedede;position: absolute;
+left: 0px;top: 0px;background: #fff;}
+.barlist li div{padding-left: 120px;}
+.barlist li div em,.barlist li div span{display: block;line-height: 20px;width: 100%;overflow: hidden;  text-overflow: ellipsis;}
+.barlist li div span{color: #ccc;}
+
+/* 游戏列表 */
+.gamelist{}
+.gamelist li{width: 50%;height: 120px;}
+.gamelist li img{width: 170px;height: 110px;border: 1px solid #f4f4f4;}
+.gamelist li div{line-height: 2em;padding: 20px 20px 0 190px;}
+
+/* 投资流程 */
+.gcontab a{margin: 0 20px;background: #9a9a9a;position: relative;}
+.gcontab a i{display: none;}
+.gcontab .active{background: #ff722c;}
+.gcontab .active i{display: block;}
+
+.page_con2 .tabcon,.page_con2 .stepcon{display: none;}
+.page_con2 .ustep1,.page_con2 .stepcon1{display: block;}
+.page_con2 .ustep1{padding-top: 50px;}
+.page_con2 .steptab{float: left;width: 380px;}
+.page_con2 .stepcon{width: 800px;float: right;}
+.page_con2 .stepcon img{width: 100%;height: 100%;}
+.steptab a{width: 100%;height: 110px;display: block;border: 1px solid #dedede;margin-top: -1px;position: relative;}
+.steptab a em{color: #cdcdcb;font-size: 38px;float: left;display: block;width: 70px;text-align: center;line-height: 108px; }
+.steptab a .name{font-size: 23px;display: block;margin-top: 15px;}
+.steptab a .des{color: #989898;font-size: 12px;}
+.steptab a i{display: none;}
+.steptab .active{background: #65b2ea;color: #fff;}
+.steptab .active i{display: block;}
+.steptab .active em,.steptab .active .name,.steptab .active .des{color: #fff;}
+
+/* 如何收益 */
+.shlist{margin: 50px 0;}
+.shlist li{width: 50%;text-align: center;float: left;color: #ff722c;}
+.shlist li img{margin: 20px auto ;}
+
+.jjlc{width: 605px;float: left;border-left: 1px solid #ececec;border-top: 1px solid #ececec;}
+.jjlc th,.jjlc td{height: 58px;line-height: 58px;text-align: center;background: #fff;border-right: 1px solid #ececec;border-bottom: 1px solid #ececec;}
+.jjlc th{color: #fff;background: #ff722c;}
+.jjlc .odd td{background: #f5f5f5;}
+
+.jjdes{float: right;width: 530px;margin-left: 40px;line-height: 48px;margin-top: 20px;}
+.jjdes i{display: inline-block;padding-right: 15px;font-size: 12px;  position: relative;
+  top: -2px;}
+
+/*流程*/
+.page_con3 .part2 .h2{padding-bottom: 65px;}
+.page_con3 .part3 .lc{margin: 40px auto 20px;}
+.page_con3 .part1{padding-bottom: 20px;}
+
+
+/* 赛事流程*/
+
+.page_con4 .part2 .tc a{margin:0 45px;}
+.lclist{width: 645px;background: url(/img/info/inf_06.png) no-repeat center;line-height: 46px;margin: 20px auto;color: #ff722c;}
+.lclist span{display: block;text-align: center;float: left; }
+.lclist .eq1{width: 340px;}
+.lclist .eq2{width: 175px;}
+.lclist .eq3{width: 110px;}
+
+.lclist2{line-height: 48px;color: #ff722c;width: 650px;margin: 0 auto;font-size: 16px;padding: 40px 0;}
+.page_con4 .part3 img{margin: 20px auto;}
+.lclist3{list-style-type: disc;width: 560px;}
+
+.jblc{float: none;margin: 20px auto 50px;border: 1px solid #dedede;}
+.jblc th,.jblc td{height: 35px;line-height: 35px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{padding: 30px 0;text-align: center;background: #f6f6f6;}
+.footer p{height: 35px;line-height: 35px;}
+.footer p a{display: inline-block;padding: 0 5px;}

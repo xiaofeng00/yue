@@ -33,8 +33,12 @@ green  #42c522
 
 
 
-body{background: #f6f6f6;color: #535353;font-size: 14px;  font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif;}
+body{background: #f6f6f6;color: #535353;font-size: 14px;  font-family: '微软雅黑','Helvetica Neue', "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif;}
 a{color: #535353;}
+a:hover, a:focus{text-decoration: none;}
+em{font-style:normal;}
+.up{color:#42c522;}
+.down{color:#f00;}
 .gradient_bar{  background-color: #f5f5f5;
   background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
   background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
@@ -93,9 +97,13 @@ textarea:focus,input[type="text"]:focus,input[type="password"]:focus,input[type=
 .nwrap .fr{  width: 295px;float: right;}
 .nwrap .fr>div{  border: 1px solid #e9e9e9;padding: 10px;margin-bottom: 10px;background: #fff; }
 .nwrap .fr h3{font-size: 18px;padding-left: 10px;border-left: #ff7e00 3px solid;margin-bottom: 20px;  font-weight: normal;}
+	/* 列表顶部banner */
+.f_fundban{margin:0 auto;}
+.f_fundban img{width:100%;height:auto;}
 
 /* 列表顶部 */
-.fundlisttop{padding-left: 10px;}
+.fundlisttop{padding-left: 0px;}
+.fundlisttop{}
 .fund_search{border: 1px solid #e9e9e9;background: #fff;padding: 10px;}
 .fund_allinfo{font-size: 18px;text-align: center;height: 60px;line-height: 60px;}
 .fund_allinfo em{color:#ff7e00; }
@@ -111,12 +119,14 @@ textarea:focus,input[type="text"]:focus,input[type="password"]:focus,input[type=
 .fund_searchr button{vertical-align: top;}
 
 .nwrap .main{width: 890px;float: left;}
-.nwrap .main ul{padding: 0px 0 10px 10px;}
+.nwrap .main ul{padding: 0px 0 10px 0px;}
 .f_fundlist{padding-top: 20px;padding-bottom: 30px;}
 .fundclist li{margin-bottom: 12px;border: 1px solid #e9e9e9;position: relative; background: #fff;padding: 10px;padding-bottom: 15px; clear: both;}
 .fundclist li .msg_w{position: relative;}
 .fundclist li:hover{border:1px solid #ff7e00;}
-.fundclist li:hover .gos{display:inline;*display:inline;*zoom:1;}
+.fundclist li:hover .gos{visibility: visible;}
+.no_fundlist{text-align:center;background:#fff;height:50px;line-height:50px;font-size:20px;}
+.no_data{text-align:center;}
 
 .fund_listtab{padding: 12px 0 12px 10px;height: 40px;line-height: 40px;}
 .fund_listtab .note{width: 603px;height: 38px;line-height: 38px;text-align: center;color:#ff7e00;background: #ffffe5;border: 1px solid #e9e9e9;display: block;float: right; }
@@ -135,7 +145,7 @@ textarea:focus,input[type="text"]:focus,input[type="password"]:focus,input[type=
 .fundclist .lvl em{border-radius: 3px;padding:2px;}
 .fundclist .mains p{margin-bottom: 15px;line-height: 25px;}
 .fundclist .msg{text-indent: 1em;display: inline-block;color:#999;}
-.fundclist .gos{display: none;width: 100px;text-align: center;float: right;color: #ff722c;}
+.fundclist .gos{  visibility: hidden;width: 100px;text-align: center;float: right;color: #ff722c;}
 
 .fundclist a:hover .name,.fundclist a:hover .lvl,.fundclist a:hover .rank{color: #535353;}
 .fundclist a:hover .msg{color:#999;}
@@ -153,16 +163,19 @@ textarea:focus,input[type="text"]:focus,input[type="password"]:focus,input[type=
 
 .fundclist .step{float: right;border-left: 1px solid #e9e9e9;  width: 185px;}
 .fundclist .step p{text-indent: 10px;height: 30px;line-height: 30px;}
+.fundclist .step .belong{text-align:center;font-size:18px;}
 .fundclist .step a{display: block;width: 168px;height: 38px;line-height: 38px;font-size: 14px;text-align: center;background:#ff722c;color: #fff;border-radius: 3px;  margin: 15px auto; }
 .fundclist .step .all em{color: #ff722c;}
 .fundclist .step .can em{color: #42c522;}
+.fundclist .step .sall{background:#ff722c;color: #fff;}
+.fundclist .step .buy{background:#3597fa;color: #fff;}
 .fundclist .step .disable{background: #959595;border-bottom: 1px solid #767676;cursor: default;}
 .showmore{text-align: center;display: block;}
 
 /* 详细信息 */
 .f_fundinfo{padding-top: 20px;padding-bottom: 30px;}
 .fundtitles{border: 1px solid #e9e9e9;height: 40px;line-height: 40px;}
-.fundtitles h2{font-weight: normal;display: inline-block;float: left;text-indent: 25px;}
+.fundtitles h2{font-weight: normal;display: inline-block;float: left;text-indent: 25px;font-size:20px;}
 .fundtitles .rnotes,.fundtitles .shares{float: right;margin-right: 20px;}
 
 
@@ -172,15 +185,39 @@ textarea:focus,input[type="text"]:focus,input[type="password"]:focus,input[type=
 .fundtop .msg{line-height: 30px;text-indent: 0;margin-top: 10px;}
 .fundtop .mains{padding-left: 145px;width: 720px;}
 .fundtop .rank{padding-left: 10px;}
-.fundtop .otherinf{margin-top: 10px;}
+.fundtop .otherinf{margin-top: 10px;  background-color: #feffe6;border:1px solid #dedede;width:552px;position:relative;left:10px;}
 .fundtop .otherinf p{margin: 0;height: 30px;line-height: 30px;}
-.fundtop .otherinf p span{width: 185px;display: inline-block;text-indent:30px; }
-.fundtop .step{background: #EDE8E8;border: 0;padding: 10px;  width: 250px;}
-.fundtop .step form{width: 100%;display: block;margin-top: 25px;padding-bottom: 15px;}
+.fundtop .otherinf p span{width: 180px;display: inline-block;text-indent:30px;overflow:hidden; }
+.fundtop .step{background: #EDE8E8;border: 0;padding: 10px;  width: 250px;position: relative;}
+.fundtop .step form{width: 100%;display: block;margin-top: 25px;padding-bottom: 15px;text-align: center;}
 .fundtop .step label{margin-right: 72px;display: block;*position: relative;}
 .fundtop .step input{width: 100%;text-indent: 5px;*position: absolute;left: 0px;top: 0px;}
-.fundtop .step .values,.fundtop .step .action{border: 0;height: 35px;line-height: 35px;background: #fff;}
-.fundtop .step .action{float: right;width: 72px;background: #ff722c;color: #fff;}
+.fundtop .step .values,.fundtop .step .action,.fundtop .step .att{border: 0;height: 35px;line-height: 35px;background: #fff;}
+.fundtop .step .action,.fundtop .step .att{width: 72px;margin:0 5px; background: #ff722c;color: #fff;}
+.fundtop .step .att{  background-color: #3597fa;}
+
+.fundtop .share{  float: right;
+  margin-top: -40px;margin-right: 2px;}
+
+.share{ height:35px; line-height:0px!important;}
+.share span{  float: left;
+  display: block;
+  width: 60px;
+  height: 100%;
+  line-height: 2em;}
+.share a{ float:left; display:inline; width:39px; height:31px !important;padding:0px; margin-right:1px; opacity: 1; filter: alpha(opacity=100);background:url(/img/bg_yzzshare.png) no-repeat !important;}
+.share a{ padding-left:0px; height:35px; }
+.share a:hover{ opacity: 0.7; filter: alpha(opacity=70);}
+.share .sm4{background-position:0 -277px !important;}
+.share .sm3{background-position:-240px -277px !important;}
+.share #bds_tsina2{background-position:0 -277px !important;}
+.share .sm1{background-position:-40px -277px !important;}
+.share .bds_tieba{background-position:-80px -277px !important;}
+.share .sm2{background-position:-120px -277px !important;}
+.share .bds_more{background-position:-160px -277px !important;}
+.share .sm5{background-position:-200px -277px !important;}
+
+
 
 .fundleft,.fundright{border: 1px solid #e9e9e9;margin-top: 20px;background: #fff;min-height: 325px;}
 .fundleft>div,.fundright>div{padding: 10px;}
@@ -193,9 +230,10 @@ textarea:focus,input[type="text"]:focus,input[type="password"]:focus,input[type=
 .fundlranktt{width: 385px;float: right;height: 43px;line-height: 36px;}
 .fundleft .cont{width: 335px;float: left;height: 260px;margin-top: 40px;height: 200px;}
 .fundlranklist{width: 380px;float: right;margin-top: 40px;}
-.fundlranklist li{height: 38px;line-height: 38px;padding: 0 20px 0 40px;}
-.fundlranklist .odd{background: #f5f5f5;}
-.fundlranklist em{float: right;}
+.fundlranklist li,.fundright .fundrightmain li{height: 38px;line-height: 38px;padding: 0 20px 0 40px;}
+.fundlranklist .odd,.fundrightmain .odd{background: #f5f5f5;}
+.fundlranklist em,.fundrightmain li em{float: right;}
+
 
 
 
@@ -203,30 +241,82 @@ textarea:focus,input[type="text"]:focus,input[type="password"]:focus,input[type=
 .fundright .fundrtab .active,.fundright .fundrtab a:hover{color: #ff722c;}
 .fundright .cont,.fundleft .cont{display: none;}
 .fundright .publicmsg,.fundleft .picprice{display: block;}
+.fundrightmain ul{margin-top: 20px;}
 
 /* 右侧最多访问 */
 .visitmost{}
 .visitmost li{border-bottom: 1px dashed #e9e9e9;margin-top: 5px;padding-bottom: 5px; clear: both;}
 .visitmost li img{width: 30px;height: 30px;position: absolute;left: 0;top: 0px; padding: 1px;border: 1px solid #e9e9e9;float: left; }
 .visitmost li a{display: block;position: relative;}
-.visitmost .info{padding-left: 40px;line-height: 18px;}
+.visitmost .info{padding-left: 5px;line-height: 18px;}
 .visitmost .name{font-size: 14px;display: block;}
 .visitmost li a:hover{color: #ff722c;}
 /* 右侧基金排行 */
 .fundrank{}
 .fundrank li{border-bottom: 1px dashed #e9e9e9;}
 .fundrank li a{height: 35px;line-height: 35px;display: block;}
-.fundrank li .num{float: right;}
-.fundrank li .eq{position: relative;display: inline-block; width: 25px;height: 25px;line-height: 25px;text-align: center;background:#f5f5f5;padding-right: 5px; }
+.fundrank li .num{float: right;font-size: 12px;color: #ff722c;}
+.fundrank li .eq{position: relative;display: inline-block; width: 25px;height: 25px;line-height: 25px;text-align: center;background:#f5f5f5;padding-right: 0px; }
 .fundrank li .eq i{color: #ff722c;display: none;position: absolute;left: 0px;top: -3px;font-size: 27px;}
 .fundrank li .eq b{width: 25px;height: 25px;text-align: center;position: relative;z-index: 1;font-weight: normal;}
 .fundrank li .eqspe{color: #fff;}
 .fundrank li .eqspe i{display: inline-block;color: #ff722c;margin: 0 auto;}
 .fundrank li a:hover .name{color:#ff722c; }
 
+.fundinfo2{margin-top: 20px;clear:both;}
+.fundinfo2 .fundtitles{padding-left: 30px;}
+.fundinfo2 .fundtitles a{height: 32px;line-height: 32px;padding: 0 15px;display: block;float: left;  position: relative;top: 8px;}
+.fundinfo2 .fundtitles .active{background: #fff;border-top: 2px solid #ff722c;}
+.coninfo2{border: 1px solid #e9e9e9;background: #fff;}
+.fundinfo2 h3{height: 24px;line-height: 24px;padding-left:15px;border-left: 2px solid #ff722c;font-weight: normal;margin: 20px 0 20px 45px; }
+.coninfo2 .incl,.coninfo2 .ry{margin-left: 45px;}
+.coninfo2 .incl span{margin-right: 50px;}
+.coninfo2 .ry li{line-height: 35px;margin-top: 15px; clear: both;padding-left: 188px; *margin-top: 20px;}
+.coninfo2 .ry li em{width: 136px;height: 36px;line-height: 36px;text-align: center;display: inline-block;float: left;background: #f7f7f7;border: 1px solid #e9e9e9;margin-right: 50px;*display:inline;*zoom:1;  margin-left: -188px;}
+.coninfo2 .ry li span{float:left;  width: 30%;white-space: nowrap;overflow: hidden;  text-overflow: ellipsis;}
+.coninfo2 .ry li div{float: left;  width: 100%;}
+.coninfo2 .incl,.coninfo2 .ry,.coninfo2 .userlist{margin-bottom: 50px;}
+.fundjl {padding: 15px ;}
+.fundjl  a:hover,.fundjl  a:focus{text-decoration: none;}
+.fundjl .table_w{position:relative;padding:20px 85px 0;}
+
+.fundjl table{margin-top:20px;}
+.fundjl .coninfo2tab{position:absolute;display:block; left:10px;top:50%;margin-top:-20px; height:40px;line-height:40px;width:40px;text-align:center;font-size:25px;}
+.fundjl .coninfotabr{left:auto;right:10px;}
+.fundjl thead th{text-align: center;}
+.fundjl tbody td{text-align: center;}
+.userlist{padding-left: 75px;position:relative;}
+.userlist li{width: 490px;height: 190px;border: 1px solid #dedede;position: relative;float: left;margin: 30px 50px 30px 0;}
+.userlist li img{width: 115px;height: 150px;position: absolute;left: 10px;top: 10px;}
+.userlist li>div{padding: 15px 15px 15px 135px;}
+.userlist li p{height: 28px;line-height: 28px;}
+.userlist li .birthday,.userlist li .jointime{float: right;}
+.userlist li .name{margin-right: 15px;}
+.userlist li .des{padding-top: 10px;border-top: 1px solid #dedede;text-indent: 2em;}
+.f_videolist{padding: 5px 0 20px 20px;background:#fff;display: none; }
+.f_videolist li{float: left;margin: 15px 14px 0 0;}
+.f_videolist li *{transition-property: border,height,box-shadow,opacity,margin;
+  transition-duration: 0.4s;
+  -webkit-transition-property: border,height,box-shadow,opacity,margin;
+  -webkit-transition-duration: 0.4s;}
+.f_videolist a{display: block;width: 215px;height: 130px;overflow: hidden;position: relative;padding: 1px;  border: 2px solid #fff;  }
+.f_videolist img{width: 100%;height: 100%;}
+.f_videolist .inof{position: absolute;height: 45px; left: 0px;bottom: 0px;width: 100%;  overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.f_videolist .inof p{height: 25px;line-height: 25px;color: #fff;padding: 0 5px;}
+.f_videolist .des,.f_videolist .num{filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);}
+.f_videolist .inof .des{color: #ff7e00;}
+.f_videolist .inof .name{text-align: center;padding-top: 20px;  background: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.6));
+  background: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.6));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.6));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000,endColorstr=#CC000000);}
+.f_videolist a:hover p{color: #fff;}
+.f_videolist a:hover .inof{height: 95px;}
+.f_videolist a:hover{border: 2px solid #ff7e00;  box-shadow: 0 0 5px #ff7e00; }
+
+
 .diag{filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.6);width: 100%;height: 100%;position: absolute;left: 0px;top: 0px;z-index: 10;display: none;}
 .diag.active{display: block;}
-.diagcon{position: absolute;width: 430px;height: 280px;left: 50%;top: 50%; margin: -140px 0 0 -215px; border: 1px solid #ccc;background: #fff;}
+.diagcon{width: 420px; background: #fff;}
 .diagcon .close{width: 25px;height: 25px;position: absolute;right: 0px;top: 2px;font-weight: bold;font-size: 20px; line-height: 25px;text-align: center;}
 .diagcon a:hover{color:#ff722c; }
 .diagcon_i{padding: 10px 45px;}
@@ -242,7 +332,8 @@ textarea:focus,input[type="text"]:focus,input[type="password"]:focus,input[type=
 .buyfund .lost a{padding-left: 10px;}
 .buyfund .canbuy em{padding-right: 10px;display: inline-block;}
 .buyfund .btns{padding: 2px 10px;margin-right: 10px;display: inline-block;border-radius: 3px; margin: 0 auto;}
-.buyfund .bottom{text-align: center;margin-top: 15px;}
+.buyfund .bottoms{text-align: center;margin-top: 15px;}
+.buyfund .allprice .ctr{color: #f00;}
 
 
 
